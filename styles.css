@@ -581,6 +581,7 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   background: transparent;
   border-radius: 2px;
   font-size: min(3.5vw, 0.9rem);
+  color: #212528;
 }
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover {
   transform: scale(1.06);
@@ -593,7 +594,13 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   color: #fff !important;
 }
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover button {
-  border: none;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+#pricing .pricing-card-container .pricing-card .pricing-card-body:hover button:hover {
+  color: #212528;
+  border: 1px solid #fad725;
   background: #fad725;
 }
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover img {
@@ -699,22 +706,37 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   z-index: 2;
   white-space: wrap;
 }
-#clients .carausel-container .carausel-card-description {
+#clients .carausel-container .carausel-card .carausel-card-description {
+  color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
-#clients .carausel-container .card-content .image-container {
+#clients .carausel-container .carausel-card .card-content .image-container {
   aspect-ratio: 1/1;
 }
-#clients .carausel-container .card-content .image-container img {
+#clients .carausel-container .carausel-card .card-content .image-container img {
   width: 100%;
 }
-#clients .carausel-container .card-content span:first-of-type {
+#clients .carausel-container .carausel-card .card-content span:first-of-type {
   color: #212528;
   font-size: min(4.5vw, 0.93rem);
 }
-#clients .carausel-container .card-content span:last-of-type {
+#clients .carausel-container .carausel-card .card-content span:last-of-type {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
+}
+#clients .carausel-container .carausel-card:hover {
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+#clients .carausel-navigation span {
+  border: none;
+  background: #e9e9e9;
+}
+#clients .carausel-navigation span:nth-child(2) {
+  border: none;
+  transform: scale(1.5);
+  background: #6f77f1;
+  box-shadow: none;
 }
 
 footer .navbar-brand span {
@@ -1144,34 +1166,40 @@ footer .copyright-container .copyright-links-container a {
   .copyright-container .copyright-links-container a {
     font-size: 13px;
   }
-  #clients .carausel-container::-webkit-scrollbar {
-    display: none;
+  #clients .clients-heading {
+    color: #212528;
+  }
+  #clients .clients-description {
+    font-size: min(4.5vw, 0.93rem);
   }
   #clients .carausel-container .carausel-card {
-    width: 100%;
-    aspect-ratio: 6/7;
-    display: inline-block;
-    max-width: 18rem;
-    border: 1px solid #efefef;
+    width: 25rem;
+    aspect-ratio: 2/1;
+    max-width: unset;
   }
   #clients .carausel-container .carausel-card .icon-container {
-    left: 5%;
-    top: 5%;
-    z-index: 1;
+    height: 38%;
   }
-  #clients .carausel-container .carausel-card > :not(.icon-container) {
-    position: relative;
-    z-index: 2;
+  #clients .carausel-container .carausel-card .icon-container img {
+    height: 100%;
+  }
+  #clients .carausel-container .carausel-card .carausel-card-description {
+    width: 100%;
     white-space: wrap;
+    font-size: 0.8rem;
   }
-  #clients .carausel-container .carausel-card-description {
-    font-size: min(4.5vw, 0.93rem);
-  }
-  #clients .carausel-container .card-content .image-container {
+  #clients .carausel-container .carausel-card .card-content .image-container {
+    width: unset !important;
+    height: 40%;
     aspect-ratio: 1/1;
   }
-  #clients .carausel-container .card-content span:first-of-type,
-  #clients .carausel-container .card-content span:last-of-type {
-    font-size: min(4.5vw, 0.93rem);
+  #clients .carausel-container .carausel-card .card-content .image-container img {
+    height: 100%;
+  }
+  #clients .carausel-container .carausel-card .card-content span:first-of-type {
+    font-size: 0.7rem;
+  }
+  #clients .carausel-container .carausel-card .card-content span:last-of-type {
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=styles.css.map */

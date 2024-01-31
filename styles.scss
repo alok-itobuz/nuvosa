@@ -1,6 +1,4 @@
-//Poppins
-// @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-// Inter
+//Font Url
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 $font_poppins: "Poppins", sans-serif;
 $font_inter: "Inter", sans-serif;
@@ -151,7 +149,6 @@ nav {
 }
 #hero {
   > .row {
-    // max-width: 530px;
     .hero-image {
       order: 1;
       aspect-ratio: 1/1;
@@ -192,6 +189,7 @@ nav {
             &:nth-child(5) .team-member-image-container {
               background: $nav_creative_team_plus_bg_color;
               border: 0.79px dashed $light_blue_color;
+
               animation: rotateAnimation 10s linear infinite;
               &:hover {
                 cursor: pointer;
@@ -392,7 +390,6 @@ nav {
       background: $dark_yellow_color;
       color: $black_color;
       border-radius: 3px;
-      // @include sectionDescriptionFontLarge();
     }
   }
   .solution-image {
@@ -661,6 +658,7 @@ nav {
           background: transparent;
           border-radius: 2px;
           font-size: min(3.5vw, 0.9rem);
+          color: $black_color;
         }
         &:hover {
           transform: scale(1.06);
@@ -672,8 +670,14 @@ nav {
             color: #fff !important;
           }
           button {
-            border: none;
-            background: $dark_yellow_color;
+            background: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+            &:hover {
+              color: $black_color;
+              border: 1px solid $dark_yellow_color;
+              background: $dark_yellow_color;
+            }
           }
           img {
             display: block;
@@ -800,24 +804,41 @@ nav {
         z-index: 2;
         white-space: wrap;
       }
-    }
-    .carausel-card-description {
-      @include sectionDescriptionFontSmall();
-    }
-    .card-content {
-      .image-container {
-        aspect-ratio: 1/1;
-        img {
-          width: 100%;
-        }
-      }
-      span:first-of-type {
-        color: $black_color;
-        @include sectionDescriptionFontSmall();
-      }
-      span:last-of-type {
+      .carausel-card-description {
         color: $deep_grey_color;
         @include sectionDescriptionFontSmall();
+      }
+      .card-content {
+        .image-container {
+          aspect-ratio: 1/1;
+          img {
+            width: 100%;
+          }
+        }
+        span:first-of-type {
+          color: $black_color;
+          @include sectionDescriptionFontSmall();
+        }
+        span:last-of-type {
+          color: $deep_grey_color;
+          @include sectionDescriptionFontSmall();
+        }
+      }
+      &:hover {
+        border: none;
+        box-shadow: 0 4px 4px 0 rgba($color: #000000, $alpha: 0.25);
+      }
+    }
+  }
+  .carausel-navigation {
+    span {
+      border: none;
+      background: #e9e9e9;
+      &:nth-child(2) {
+        border: none;
+        transform: scale(1.5);
+        background: $light_blue_color;
+        box-shadow: none;
       }
     }
   }
@@ -889,7 +910,6 @@ footer {
 @media (min-width: 768px) {
   #hero {
     > .row {
-      // max-width: 55rem;
       .hero-image {
         order: unset;
         .hero-creative-team-card {
@@ -897,7 +917,6 @@ footer {
             font-size: 0.6rem !important;
           }
           width: 40%;
-          // aspect-ratio: 7/3;
           max-width: 10rem;
           position: absolute;
           bottom: 3%;
@@ -1145,8 +1164,6 @@ footer {
   }
   #hero {
     .row {
-      // max-width: 80rem;
-      // max-height: 85vh;
       .hero-image {
         padding: 1rem 0;
         img {
@@ -1358,37 +1375,43 @@ footer {
     }
   }
   #clients {
+    .clients-heading {
+      color: $black_color;
+    }
+    .clients-description {
+      @include sectionDescriptionFontLarge();
+    }
     .carausel-container {
-      &::-webkit-scrollbar {
-        display: none;
-      }
       .carausel-card {
-        width: 100%;
-        aspect-ratio: 6/7;
-        display: inline-block;
-        max-width: 18rem;
-        border: 1px solid $members_card_border_color;
+        width: 25rem;
+        aspect-ratio: 2/1;
+        max-width: unset;
         .icon-container {
-          left: 5%;
-          top: 5%;
-          z-index: 1;
+          height: 38%;
+          img {
+            height: 100%;
+          }
         }
-        > :not(.icon-container) {
-          position: relative;
-          z-index: 2;
+        .carausel-card-description {
+          width: 100%;
           white-space: wrap;
+          font-size: 0.8rem;
         }
-      }
-      .carausel-card-description {
-        @include sectionDescriptionFontLarge();
-      }
-      .card-content {
-        .image-container {
-          aspect-ratio: 1/1;
-        }
-        span:first-of-type,
-        span:last-of-type {
-          @include sectionDescriptionFontLarge();
+        .card-content {
+          .image-container {
+            width: unset !important;
+            height: 40%;
+            aspect-ratio: 1/1;
+            img {
+              height: 100%;
+            }
+          }
+          span:first-of-type {
+            font-size: 0.7rem;
+          }
+          span:last-of-type {
+            font-size: 0.7rem;
+          }
         }
       }
     }
