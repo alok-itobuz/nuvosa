@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +7,8 @@
   outline: none;
   font-family: "Poppins", sans-serif;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   transition: all 0.2s ease;
 }
 
@@ -19,11 +20,13 @@ body {
 .font20 {
   font-size: min(2.8vw, 1rem) !important;
 }
+
 @media (min-width: 768px) {
   .font20 {
     font-size: min(1.6vw, 0.8rem) !important;
   }
 }
+
 @media (min-width: 992px) {
   .font20 {
     font-size: min(1.8vw, 0.8rem) !important;
@@ -33,11 +36,13 @@ body {
 .font17 {
   font-size: min(2.8vw, 0.9rem) !important;
 }
+
 @media (min-width: 768px) {
   .font17 {
     font-size: min(1.5vw, 0.7rem) !important;
   }
 }
+
 @media (min-width: 992px) {
   .font17 {
     font-size: min(1.75vw, 0.75rem) !important;
@@ -55,9 +60,11 @@ body {
 nav {
   height: 4rem;
 }
+
 nav div {
   min-width: unset;
 }
+
 nav div .navbar-brand span {
   transform: translateY(-20%);
   right: -10px;
@@ -66,24 +73,30 @@ nav div .navbar-brand span {
   border: 1px solid #212528;
   background: #bc424e;
 }
+
 nav div #navbarSupportedContent {
   z-index: 2;
   -webkit-backdrop-filter: blur(100px);
-          backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
 }
+
 nav div #navbarSupportedContent ul li span {
   display: none;
 }
+
 nav div #navbarSupportedContent .nav-buttons {
   height: 2.5rem;
 }
+
 nav div #navbarSupportedContent .nav-buttons .btn-talk {
   border: 2px solid #212528 !important;
 }
+
 nav div #navbarSupportedContent .nav-buttons .btn-search {
   background: #fad725;
   aspect-ratio: 1/1;
 }
+
 nav div #navbarSupportedContent .nav-buttons .btn-search img {
   height: 100%;
 }
@@ -92,39 +105,47 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
 @keyframes rotatePlus {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(-360deg);
   }
 }
-#hero > .row .hero-image {
+
+#hero>.row .hero-image {
   order: 1;
   aspect-ratio: 1/1;
 }
-#hero > .row .hero-image .hero-creative-team-card {
+
+#hero>.row .hero-image .hero-creative-team-card {
   width: 80%;
   max-width: 17rem;
   aspect-ratio: 7/3;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
-#hero > .row .hero-image .hero-creative-team-card h2 {
+
+#hero>.row .hero-image .hero-creative-team-card h2 {
   color: #212528;
   font-family: "Inter", sans-serif;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member {
   aspect-ratio: 1/1;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member .team-member-image-container {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member .team-member-image-container {
   width: 130%;
   height: 130%;
   top: 50%;
@@ -132,52 +153,62 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(1) .team-member-image-container {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(1) .team-member-image-container {
   background: url("./images/hero/hero_member_1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(2) .team-member-image-container {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(2) .team-member-image-container {
   background: url("./images/hero/hero_member_2.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(3) .team-member-image-container {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(3) .team-member-image-container {
   background: url("./images/hero/hero_member_3.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(4) .team-member-image-container {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(4) .team-member-image-container {
   background: url("./images/hero/hero_member_4.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(5) .team-member-image-container {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(5) .team-member-image-container {
   background: #dcddff;
   border: 0.79px dashed #6f77f1;
   animation: rotateAnimation 10s linear infinite;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(5) .team-member-image-container:hover {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(5) .team-member-image-container:hover {
   cursor: pointer;
 }
-#hero > .row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(5) .team-member-image-container img {
+
+#hero>.row .hero-image .hero-creative-team-card .creative-team .creative-team-member:nth-child(5) .team-member-image-container img {
   animation: rotatePlus 10s linear infinite;
   height: 50%;
   width: 50%;
 }
-#hero > .row .hero-content {
+
+#hero>.row .hero-content {
   order: 2;
 }
-#hero > .row .hero-content h1 {
+
+#hero>.row .hero-content h1 {
   font-size: min(7vw, 2.5rem);
   color: #212528;
   font-family: "Inter", sans-serif;
 }
-#hero > .row .hero-content h1 > span {
+
+#hero>.row .hero-content h1>span {
   font-family: "Poppins", sans-serif;
   font-size: min(5vw, 1.8rem);
   right: -2%;
@@ -185,41 +216,50 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   transform: rotate(-8.23deg);
   border: 2px solid #6f77f1;
 }
-#hero > .row .hero-content h1 > span span {
+
+#hero>.row .hero-content h1>span span {
   height: 7px;
   width: 7px;
   background: #6f77f1;
   position: absolute;
 }
-#hero > .row .hero-content h1 > span span:nth-of-type(1) {
+
+#hero>.row .hero-content h1>span span:nth-of-type(1) {
   top: -13%;
   left: -5%;
 }
-#hero > .row .hero-content h1 > span span:nth-of-type(2) {
+
+#hero>.row .hero-content h1>span span:nth-of-type(2) {
   top: -13%;
   right: -5%;
 }
-#hero > .row .hero-content h1 > span span:nth-of-type(3) {
+
+#hero>.row .hero-content h1>span span:nth-of-type(3) {
   bottom: -13%;
   right: -5%;
 }
-#hero > .row .hero-content h1 > span span:nth-of-type(4) {
+
+#hero>.row .hero-content h1>span span:nth-of-type(4) {
   bottom: -13%;
   left: -5%;
 }
-#hero > .row .hero-content p {
+
+#hero>.row .hero-content p {
   color: #727272;
   font-size: min(3.3vw, 1.1rem);
 }
-#hero > .row .hero-content .hero-button-group button {
+
+#hero>.row .hero-content .hero-button-group button {
   background: #fad725;
   color: #212528;
   border-radius: 3px;
 }
-#hero > .row .hero-content .hero-button-group a span {
+
+#hero>.row .hero-content .hero-button-group a span {
   color: #212528;
 }
-#hero > .row .hero-content .hero-button-group a img:last-child {
+
+#hero>.row .hero-content .hero-button-group a img:last-child {
   right: -17%;
 }
 
@@ -227,23 +267,29 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   aspect-ratio: 13/8;
   max-width: 27rem;
 }
+
 #projects .project-card .project-card-body {
   border-radius: 3px;
 }
+
 #projects .project-card .project-card-body:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
 #projects .project-card .project-card-body .project-card-image {
   aspect-ratio: 1/1;
 }
+
 #projects .project-card .project-card-body h3 {
   color: #212528;
   font-size: min(6vw, 2rem);
 }
+
 #projects .project-card .project-card-body .project-card-description {
   color: #828282;
   font-size: min(3.2vw, 1rem);
 }
+
 #projects .project-card .project-card-body a {
   width: 4.5%;
   aspect-ratio: 1/1;
@@ -258,29 +304,36 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   bottom: 0;
   background: #f5fdff;
 }
+
 #optimise .optimise-heading {
   color: #212528;
 }
+
 #optimise .optimise-heading span {
   color: #6f77f1;
 }
+
 #optimise .optimise-description {
   font-size: min(4.5vw, 0.93rem);
   color: #727272;
 }
+
 #optimise .optimise-card-container .optimise-card {
   aspect-ratio: 20/21;
   max-width: 22rem;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body {
   border-bottom: 4px solid transparent !important;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body:hover {
   border-bottom: 4px solid #717ae0 !important;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: default;
   background: #fff;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body .bg-text {
   font-size: min(60vw, 15rem);
   color: #fafaff;
@@ -288,9 +341,10 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   top: 40%;
   transform: translateY(-50%);
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body .image-circle {
   z-index: 2;
   width: 35%;
@@ -298,27 +352,34 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   aspect-ratio: 1/1;
   background: #f9ebf0;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body .image-circle img {
   width: 85%;
   bottom: 20%;
   right: 13%;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body .optimise-card-text {
   z-index: 2;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body .optimise-card-text .optimise-card-heading {
   color: #212528;
 }
+
 #optimise .optimise-card-container .optimise-card .optimise-card-body .optimise-card-text .optimise-card-description {
   color: #828282;
   font-size: min(4vw, 0.9rem);
 }
+
 #optimise .optimise-card-container .optimise-card:nth-of-type(2) .optimise-card-body .image-circle {
   background: #ebf9f3;
 }
+
 #optimise .optimise-card-container .optimise-card:nth-of-type(3) .optimise-card-body .image-circle {
   background: #ebf8fe;
 }
+
 #optimise .optimise-card-container .optimise-card:nth-of-type(4) .optimise-card-body .image-circle {
   background: #f2f3fa;
 }
@@ -326,16 +387,20 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #solution .solution-content {
   order: 2;
 }
+
 #solution .solution-content .solution-content-heading {
   color: #212528;
 }
+
 #solution .solution-content .solution-content-heading span {
   color: #6f77f1;
 }
+
 #solution .solution-content .solution-content-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #solution .solution-content .btn-learn-more {
   width: -moz-fit-content;
   width: fit-content;
@@ -343,6 +408,7 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   color: #212528;
   border-radius: 3px;
 }
+
 #solution .solution-image {
   order: 1;
 }
@@ -351,32 +417,40 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   aspect-ratio: 7/5;
   max-width: 22rem;
 }
+
 #blog .blog-card .blog-card-body {
   border-radius: 3px;
 }
+
 #blog .blog-card .blog-card-body:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
 #blog .blog-card .blog-card-body .blog-card-image {
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 25%;
   background: #ffe8df;
 }
+
 #blog .blog-card .blog-card-body .blog-card-heading {
   color: #212528;
 }
+
 #blog .blog-card .blog-card-body .blog-card-description {
   font-size: min(3.3vw, 0.82rem);
   color: #828282;
 }
+
 #blog .blog-card .blog-card-body a {
   font-size: min(3.2vw, 0.8rem);
   color: #6f77f1;
 }
+
 #blog .blog-card:nth-of-type(2) .blog-card-image {
   background: #e3ffdf !important;
 }
+
 #blog .blog-card:nth-of-type(3) .blog-card-image {
   background: #fff8df !important;
 }
@@ -384,34 +458,43 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #whywe {
   background: #fafafa;
 }
+
 #whywe .whywe-heading {
   color: #212528;
 }
+
 #whywe .whywe-heading span {
   color: #6f77f1;
 }
+
 #whywe .whywe-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #whywe .whywe-card-container .whywe-card {
   aspect-ratio: 7/4;
 }
+
 #whywe .whywe-card-container .whywe-card .whywe-card-body {
   background: #fff;
   border-radius: 5px;
 }
+
 #whywe .whywe-card-container .whywe-card .whywe-card-body:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content h6 {
   font-size: min(4.5vw, 1.5rem);
   color: #212528;
 }
+
 #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content p {
   font-size: min(3vw, 1rem);
   color: #828282;
 }
+
 #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content button {
   width: -moz-fit-content;
   width: fit-content;
@@ -424,77 +507,97 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #about .about-content .about-content-heading {
   color: #212528;
 }
+
 #about .about-content .about-content-heading span {
   color: #6f77f1;
 }
+
 #about .about-content .about-content-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #about .about-content .about-content-card-container .about-card {
   aspect-ratio: 2/1;
   max-width: 22rem;
 }
+
 #about .about-content .about-content-card-container .about-card .about-card-body {
   border-radius: 3px;
 }
+
 #about .about-content .about-content-card-container .about-card .about-card-body .about-card-image .image-container {
   aspect-ratio: 1/1;
   border-radius: 50%;
   background: #f9e4dc;
 }
+
 #about .about-content .about-content-card-container .about-card .about-card-body .about-card-image .image-container img {
   width: 50%;
   aspect-ratio: 1/1;
 }
+
 #about .about-content .about-content-card-container .about-card .about-card-body .about-card-content h5 {
   color: #212528;
   font-size: min(5vw, 1.1rem);
 }
+
 #about .about-content .about-content-card-container .about-card .about-card-body .about-card-content p {
   color: #828282;
   font-size: min(3.6vw, 0.8rem);
 }
+
 #about .about-content .about-content-card-container .about-card .about-card-body:hover {
   border: none;
   box-shadow: 5px 25px 37px 0 rgba(2, 22, 5, 0.06);
 }
+
 @media (min-width: 576px) {
   #about .about-content .about-content-card-container .about-card {
     height: 7rem;
     max-width: 100%;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-image .image-container {
     height: 70%;
     width: unset !important;
     aspect-ratio: 1/1;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-content h5 {
     font-size: 1rem;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-content p {
     font-size: 0.7rem;
   }
 }
+
 #about .about-content .about-content-card-container .about-card:nth-of-type(2) .image-container {
   background: #d6f0d2 !important;
 }
+
 #about .about-content .about-content-card-container .about-card:nth-of-type(3) .image-container {
   background: #fef5d4 !important;
 }
+
 #about .achivements-container {
   border-collapse: collapse;
 }
+
 #about .achivements-container .numbers {
   aspect-ratio: 1/1;
 }
+
 #about .achivements-container .numbers .numbers-body {
   border: 2px solid #e1e1e1;
 }
+
 #about .achivements-container .numbers .numbers-body h2 {
   color: #828282;
   font-size: 10vw;
 }
+
 #about .achivements-container .numbers .numbers-body p {
   color: #6f6f6f;
   font-size: 2.2vw;
@@ -503,19 +606,24 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #checkspeed .checkspeed-content {
   order: 2;
 }
+
 #checkspeed .checkspeed-content .checkspeed-heading {
   color: #212528;
 }
+
 #checkspeed .checkspeed-content .checkspeed-heading span {
   color: #6f77f1;
 }
+
 #checkspeed .checkspeed-content .checkspeed-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #checkspeed .checkspeed-content form {
   max-width: 25rem;
 }
+
 #checkspeed .checkspeed-content form .input-div input {
   border-radius: 4px;
   color: #b6b6b6;
@@ -523,6 +631,7 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   font-size: min(3.6vw, 0.9rem);
   border: none;
 }
+
 #checkspeed .checkspeed-content form button {
   font-size: min(3.2vw, 0.8rem);
   border: none;
@@ -530,6 +639,7 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   color: #212528;
   border-radius: 4px;
 }
+
 #checkspeed .checkspeed-image {
   order: 1;
 }
@@ -537,44 +647,54 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #pricing {
   background: #fafafa;
 }
+
 #pricing .pricing-heading {
   color: #212528;
 }
+
 #pricing .pricing-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #pricing .pricing-card-container .pricing-card {
   max-width: 25rem;
   aspect-ratio: 9/7;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body {
   border-radius: 4px;
   background: #fff;
   transition: all 0.2s ease;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body img {
   display: none;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body .pricing-category {
   z-index: 2;
   font-size: min(3.7vw, 1.1rem);
   color: #6f77f1;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body .price {
   z-index: 2;
   color: #212528;
   font-size: min(9vw, 3.5rem);
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body .price sub,
 #pricing .pricing-card-container .pricing-card .pricing-card-body .price sup {
   font-size: min(3.5vw, 0.9rem);
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body .services {
   z-index: 2;
   font-size: min(3.5vw, 0.9rem);
   color: #828282;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body button {
   z-index: 2;
   border: 1px solid #212528;
@@ -583,26 +703,31 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   font-size: min(3.5vw, 0.9rem);
   color: #212528;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover {
   transform: scale(1.06);
   background-size: cover;
   background-position: center;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover .pricing-category,
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover .price,
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover .services {
   color: #fff !important;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover button {
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover button:hover {
   color: #212528;
   border: 1px solid #fad725;
   background: #fad725;
 }
+
 #pricing .pricing-card-container .pricing-card .pricing-card-body:hover img {
   display: block;
 }
@@ -610,22 +735,27 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #contact .contact-container .contact-heading {
   color: #212528;
 }
+
 #contact .contact-container .contact-description {
   color: #909090;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #contact .contact-container form {
   max-width: 25rem;
 }
+
 #contact .contact-container form input {
   border: 1px solid #d0c3c9;
   color: #727272;
 }
+
 #contact .contact-container form input,
 #contact .contact-container form button {
   font-size: min(4.5vw, 0.9rem);
   border-radius: 3px;
 }
+
 #contact .contact-container form button {
   border: none;
   background: #6f77f1;
@@ -635,42 +765,53 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #members .members-heading {
   color: #212528;
 }
+
 #members .members-heading span {
   color: #6f77f1;
 }
+
 #members .members-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #members .members-card-container .members-card {
   aspect-ratio: 7/4;
   max-width: 25rem;
 }
+
 #members .members-card-container .members-card .members-card-body {
   border: 1px solid #efefef;
 }
+
 #members .members-card-container .members-card .members-card-body:hover {
   border: none;
   box-shadow: 0 34px 50px -17px #021605;
 }
+
 #members .members-card-container .members-card .members-card-body:hover .members-card-content .members-card-heading {
   color: #6f77f1;
 }
+
 #members .members-card-container .members-card .members-card-body .members-card-image-container .members-card-image {
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
+
 #members .members-card-container .members-card .members-card-body .members-card-content .members-card-heading {
   color: #212528;
   font-size: min(7vw, 1.5rem);
 }
+
 #members .members-card-container .members-card .members-card-body .members-card-content .members-card-description {
   color: #a3a2a2;
   font-size: min(3.5vw, 0.75rem);
 }
+
 #members .members-card-container .members-card .members-card-body .members-card-content .icons-container {
   height: 12%;
 }
+
 #members .members-card-container .members-card .members-card-body .members-card-content .icons-container a:hover svg path {
   fill: #6f77f1;
 }
@@ -678,17 +819,21 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
 #clients .clients-heading {
   color: #212528;
 }
+
 #clients .clients-description {
   font-size: min(4.5vw, 0.93rem);
 }
+
 #clients .carausel-container {
   white-space: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
 }
+
 #clients .carausel-container::-webkit-scrollbar {
   display: none;
 }
+
 #clients .carausel-container .carausel-card {
   width: 100%;
   aspect-ratio: 6/7;
@@ -696,42 +841,52 @@ nav div #navbarSupportedContent .nav-buttons .btn-search img {
   max-width: 18rem;
   border: 1px solid #efefef;
 }
+
 #clients .carausel-container .carausel-card .icon-container {
   left: 5%;
   top: 5%;
   z-index: 1;
 }
-#clients .carausel-container .carausel-card > :not(.icon-container) {
+
+#clients .carausel-container .carausel-card> :not(.icon-container) {
   position: relative;
   z-index: 2;
   white-space: wrap;
 }
+
 #clients .carausel-container .carausel-card .carausel-card-description {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #clients .carausel-container .carausel-card .card-content .image-container {
   aspect-ratio: 1/1;
 }
+
 #clients .carausel-container .carausel-card .card-content .image-container img {
   width: 100%;
 }
+
 #clients .carausel-container .carausel-card .card-content span:first-of-type {
   color: #212528;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #clients .carausel-container .carausel-card .card-content span:last-of-type {
   color: #828282;
   font-size: min(4.5vw, 0.93rem);
 }
+
 #clients .carausel-container .carausel-card:hover {
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
 #clients .carausel-navigation span {
   border: none;
   background: #e9e9e9;
 }
+
 #clients .carausel-navigation span:nth-child(2) {
   border: none;
   transform: scale(1.5);
@@ -747,24 +902,30 @@ footer .navbar-brand span {
   border: 1px solid #212528;
   background: #bc424e;
 }
+
 footer hr {
   background: #eae5e5;
 }
+
 footer .footer-links-container {
   max-width: 22rem;
 }
+
 footer .footer-links-container a {
   color: #212528;
   font-size: min(4vw, 0.9rem);
 }
+
 footer .footer-links-container a:hover {
   color: #6f77f1;
 }
+
 @media (min-width: 576px) {
   footer .footer-links-container {
     max-width: unset;
   }
 }
+
 footer .copyright-container span,
 footer .copyright-container .copyright-links-container a {
   font-size: min(3vw, 11px);
@@ -776,181 +937,233 @@ footer .copyright-container .copyright-links-container a {
     max-width: unset;
     aspect-ratio: 6/7;
   }
+
   #members .members-card-container .members-card .members-card-body .members-card-image-container {
     height: 50%;
   }
+
   #members .members-card-container .members-card .members-card-body .members-card-image-container .members-card-image {
     width: unset !important;
     height: 100%;
     background: #000;
   }
+
   #members .members-card-container .members-card .members-card-body .members-card-content {
     height: 50%;
   }
+
   #members .members-card-container .members-card .members-card-body .members-card-content .members-card-heading {
     font-size: min(3vw, 1.1rem) !important;
   }
+
   #members .members-card-container .members-card .members-card-body .members-card-content .members-card-description {
     font-size: min(2vw, 0.75rem) !important;
   }
+
   #members .members-card-container .members-card .members-card-body .members-card-content .icons-container {
     height: 22% !important;
   }
 }
+
 @media (min-width: 768px) {
-  #hero > .row .hero-image {
+  #hero>.row .hero-image {
     order: unset;
   }
-  #hero > .row .hero-image .hero-creative-team-card {
+
+  #hero>.row .hero-image .hero-creative-team-card {
     width: 40%;
     max-width: 10rem;
     position: absolute;
     bottom: 3%;
     left: -13%;
   }
-  #hero > .row .hero-image .hero-creative-team-card h2 {
+
+  #hero>.row .hero-image .hero-creative-team-card h2 {
     font-size: 0.6rem !important;
   }
-  #hero > .row .hero-content {
+
+  #hero>.row .hero-content {
     order: unset;
   }
-  #hero > .row .hero-content h1 {
+
+  #hero>.row .hero-content h1 {
     font-size: min(4vw, 1.9rem);
   }
-  #hero > .row .hero-content h1 span {
+
+  #hero>.row .hero-content h1 span {
     font-size: min(2.5vw, 1.3rem);
   }
-  #hero > .row .hero-content p {
+
+  #hero>.row .hero-content p {
     font-size: min(1.8vw, 0.76rem);
   }
+
   #projects .project-card .project-card-body h3 {
     font-size: min(2vw, 1rem);
   }
+
   #projects .project-card .project-card-body .project-card-description {
     font-size: min(3.2vw, 0.54rem);
   }
+
   #solution .solution-content {
     order: unset;
   }
+
   #solution .solution-content .solution-content-description {
     font-size: min(4vw, 0.65rem);
   }
+
   #solution .solution-content .btn-learn-more {
     font-size: min(3.5vw, 0.6rem);
   }
+
   #solution .solution-image {
     order: unset;
   }
+
   #blog .blog-card {
     aspect-ratio: 7/8;
   }
+
   #blog .blog-card .blog-card-body .blog-card-description {
     font-size: min(1.5vw, 0.7rem);
   }
+
   #blog .blog-card .blog-card-body a {
     font-size: min(1.4vw, 0.65rem);
   }
+
   #whywe .whywe-card-container .whywe-card {
     aspect-ratio: 2/3;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-image {
     height: 50%;
     overflow: hidden;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-image img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content {
     height: 50%;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content h6 {
     font-size: min(2.5vw, 1.2rem);
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content p {
     font-size: min(1.5vw, 0.71rem);
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content button {
     font-size: min(3vw, 0.85rem);
     border-radius: 4%;
   }
+
   #about .about-content .about-content-heading {
     font-size: min(3vw, 1.5rem);
   }
+
   #about .about-content .about-content-description {
     font-size: min(1.8vw, 0.85rem);
   }
+
   #about .about-content .about-content-card-container .about-card {
     aspect-ratio: 7/3;
     height: unset !important;
     max-width: unset !important;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-body {
     border: none;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-body .about-card-image .image-container {
     height: unset !important;
     width: 100% !important;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-body .about-card-content h5 {
     font-size: 1rem;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-body .about-card-content p {
     font-size: 0.7rem;
   }
+
   #about .achivements-container {
     border: 1px solid #e1e1e1;
   }
+
   #about .achivements-container .numbers {
     aspect-ratio: 1/1;
   }
+
   #about .achivements-container .numbers .numbers-body {
     border: none;
   }
+
   #about .achivements-container .numbers .numbers-body h2 {
     font-size: min(8vw, 3rem);
   }
+
   #about .achivements-container .numbers .numbers-body p {
     font-size: min(1.2vw, 0.7rem);
   }
+
   #about .achivements-container span .circle {
     height: 13px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background: #d1563b;
   }
+
   #about .achivements-container span:nth-of-type(2) .circle {
     background: #3bd165;
   }
+
   #about .achivements-container span:nth-of-type(3) .circle {
     background: #f7c745;
   }
+
   #checkspeed .checkspeed-content {
     order: unset;
   }
+
   #checkspeed .checkspeed-content .checkspeed-description {
     font-size: min(1.8vw, 0.85rem);
   }
+
   #checkspeed .checkspeed-content form {
     max-width: 100%;
   }
+
   #checkspeed .checkspeed-content form .input-div {
     overflow: hidden;
   }
+
   #checkspeed .checkspeed-content form .input-div input {
     border-right: 0.1px solid #b6b6b6;
     border-radius: 4px 0 0 4px;
   }
+
   #checkspeed .checkspeed-content form .input-div input:last-of-type {
     border-right: none;
     border-left: 0.1px solid #b6b6b6;
     border-radius: 0 4px 4px 0;
   }
+
   #checkspeed .checkspeed-image {
     order: unset;
   }
+
   #contact .contact-container {
     width: 90%;
     border: 1px solid #300808;
@@ -958,248 +1171,322 @@ footer .copyright-container .copyright-links-container a {
     border-radius: 10px;
     padding: 2rem;
   }
+
   #contact .contact-container .contact-description {
     font-size: min(4vw, 0.9rem);
   }
+
   #contact .contact-container form {
     max-width: unset;
   }
+
   #contact .contact-container form input {
     flex-grow: 1 !important;
     max-width: 38% !important;
   }
+
   #contact .contact-container form input,
   #contact .contact-container form button {
     font-size: min(2vw, 1rem);
   }
+
   #contact .contact-container form button {
     width: 20% !important;
     max-width: 10rem !important;
   }
+
   .copyright-container span,
   .copyright-container .copyright-links-container a {
     font-size: 11px;
   }
 }
+
 @media (min-width: 992px) {
   nav div {
     height: 100%;
   }
+
   nav div #navbarSupportedContent {
     flex-grow: unset !important;
     width: 80%;
     min-width: 740px;
   }
+
   nav div #navbarSupportedContent ul li:hover span {
     height: 2px;
     bottom: 0.2rem;
     background: #6f77f1;
   }
+
   nav div #navbarSupportedContent ul li:hover span:first-of-type {
     width: 55%;
     left: 11%;
   }
+
   nav div #navbarSupportedContent ul li:hover span:last-of-type {
     width: 16%;
     right: 11%;
   }
+
   nav div #navbarSupportedContent form {
     width: 12rem;
     height: 100%;
   }
+
   nav div #navbarSupportedContent form button img {
     height: unset;
   }
+
   #hero .row .hero-image {
     padding: 1rem 0;
   }
+
   #hero .row .hero-image img {
     width: unset !important;
     max-height: 100%;
   }
+
   #hero .row .hero-image .hero-creative-team-card {
     bottom: 10%;
     left: -3%;
   }
+
   #hero .row .hero-content h1 {
     font-size: 3.5vw;
   }
+
   #hero .row .hero-content h1 span {
     font-size: min(2.6vw, 2rem);
   }
+
   #hero .row .hero-content p {
     font-size: min(1.8vw, 1rem);
   }
+
   #hero .row .hero-button-group button,
   #hero .row .hero-button-group a span {
     font-size: min(1.8vw, 0.8rem);
   }
+
   #projects .project-card .project-card-body h3 {
     font-size: min(2vw, 1.7rem);
   }
+
   #projects .project-card .project-card-body .project-card-description {
     font-size: min(1vw, 0.9rem);
   }
+
   #optimise .optimise-description {
     font-size: min(4.5vw, 0.93rem);
   }
+
   #optimise .optimise-card-container .optimise-card {
     aspect-ratio: 5/6;
   }
+
   #optimise .optimise-card-container .optimise-card .optimise-card-body .bg-text {
     font-size: min(18vw, 15rem);
   }
+
   #optimise .optimise-card-container .optimise-card .optimise-card-body .optimise-card-text .optimise-card-heading {
     font-size: min(1.4vw, 1.1rem);
   }
+
   #optimise .optimise-card-container .optimise-card .optimise-card-body .optimise-card-text .optimise-card-description {
     font-size: min(0.95vw, 0.9rem);
   }
+
   #solution .solution-content .solution-content-description {
     font-size: min(4.5vw, 0.93rem);
   }
+
   #solution .solution-content .btn-learn-more {
     font-size: min(1.4vw, 0.8rem);
   }
+
   #blog .blog-card {
     aspect-ratio: 9/7;
   }
+
   #blog .blog-card .blog-card-body .blog-card-description {
     font-size: min(3.3vw, 0.82rem);
   }
+
   #blog .blog-card .blog-card-body a {
     font-size: min(3.2vw, 0.8rem);
   }
+
   #whywe .whywe-card-container .whywe-card {
     aspect-ratio: 5/7;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-image {
     height: 60%;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content {
     height: 40%;
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content h6 {
     font-size: min(2.2vw, 1.6rem);
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content p {
     font-size: min(1.4vw, 0.9rem);
   }
+
   #whywe .whywe-card-container .whywe-card .whywe-card-body .whywe-card-content button {
     font-size: min(1.4vw, 0.85rem);
   }
+
   #about .about-content .about-content-heading {
     font-size: min(3.2vw, 2.1rem);
   }
+
   #about .about-content .about-content-description {
     font-size: min(4.5vw, 0.93rem);
   }
+
   #about .about-content .about-content-card-container .about-card {
     aspect-ratio: 4/1;
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-body .about-card-content h5 {
     font-size: min(1.5vw, 1.7rem);
   }
+
   #about .about-content .about-content-card-container .about-card .about-card-body .about-card-content p {
     font-size: min(1.1vw, 1.1rem);
   }
+
   #checkspeed .checkspeed-content .checkspeed-description {
     font-size: min(4.5vw, 0.93rem);
   }
+
   #pricing {
     background: #fafafa;
   }
+
   #pricing .pricing-heading {
     color: #212528;
   }
+
   #pricing .pricing-description {
     color: #828282;
     font-size: min(4.5vw, 0.93rem);
   }
+
   #pricing .pricing-card-container {
     margin-top: 3rem;
   }
+
   #pricing .pricing-card-container .pricing-card {
     width: 30% !important;
     aspect-ratio: 5/7;
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body .pricing-category {
     font-size: min(2vw, 1.2rem);
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body .price {
     margin-top: 1.5rem;
     font-size: min(6vw, 3.5rem);
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body .price sub,
   #pricing .pricing-card-container .pricing-card .pricing-card-body .price sup {
     font-size: min(1.5vw, 1rem);
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body .services {
     font-size: min(1.5vw, 1rem);
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body .services:first-of-type {
     margin-top: 1.5rem;
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body .services:last-of-type {
     margin-bottom: 1.5rem;
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body button {
     font-size: min(1.5vw, 1rem);
   }
+
   #pricing .pricing-card-container .pricing-card .pricing-card-body:hover {
     transform: scale(1.08);
   }
+
   #contact .contact-container {
     padding: 5rem;
   }
+
   #contact .contact-container .contact-description {
     font-size: min(4.5vw, 0.93rem);
   }
+
   #contact .contact-container form input {
     max-width: 39% !important;
   }
+
   #contact .contact-container form input,
   #contact .contact-container form button {
     font-size: min(2vw, 1.1rem);
   }
+
   .copyright-container span,
   .copyright-container .copyright-links-container a {
     font-size: 13px;
   }
+
   #clients .clients-heading {
     color: #212528;
   }
+
   #clients .clients-description {
     font-size: min(4.5vw, 0.93rem);
   }
+
   #clients .carausel-container .carausel-card {
     width: 25rem;
     aspect-ratio: 2/1;
     max-width: unset;
   }
+
   #clients .carausel-container .carausel-card .icon-container {
     height: 38%;
   }
+
   #clients .carausel-container .carausel-card .icon-container img {
     height: 100%;
   }
+
   #clients .carausel-container .carausel-card .carausel-card-description {
     width: 100%;
     white-space: wrap;
     font-size: 0.8rem;
   }
+
   #clients .carausel-container .carausel-card .card-content .image-container {
     width: unset !important;
     height: 40%;
     aspect-ratio: 1/1;
   }
+
   #clients .carausel-container .carausel-card .card-content .image-container img {
     height: 100%;
   }
+
   #clients .carausel-container .carausel-card .card-content span:first-of-type {
     font-size: 0.7rem;
   }
+
   #clients .carausel-container .carausel-card .card-content span:last-of-type {
     font-size: 0.7rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
