@@ -3,41 +3,44 @@
 $font_poppins: "Poppins", sans-serif;
 $font_inter: "Inter", sans-serif;
 
-$black_color: #212528;
-$dark_blue_color: #717ae0;
-$light_blue_color: #6f77f1;
-$light_yellow_color: #f7c745;
-$dark_yellow_color: #fad725;
-$very_light_grey_color: #fafafa;
-$medium_grey_color: #727272;
-$deep_grey_color: #828282;
-$white_color: #fff;
-$nav_creative_team_plus_bg_color: #dcddff;
-$logo_dot_color: #bc424e;
-$optimise_circle_1_bg_color: #f9ebf0;
-$optimise_circle_2_bg_color: #ebf9f3;
-$optimise_circle_3_bg_color: #ebf8fe;
-$optimise_circle_4_bg_color: #f2f3fa;
-$optimise_card_bg_numbre_color: #fafaff;
-$optimise_bg_circle_color: #f5fdff;
-$blog_card_icon1_bg_color: #ffe8df;
-$blog_card_icon2_bg_color: #e3ffdf;
-$blog_card_icon3_bg_color: #fff8df;
-$aboutus_numbers_description_color: #6f6f6f;
-$aboutus_number_red_dot_color: #d1563b;
-$aboutus_number_green_dot_color: #3bd165;
-$aboutus_card1_bg_color: #f9e4dc;
-$aboutus_card2_bg_color: #d6f0d2;
-$aboutus_card3_bg_color: #fef5d4;
-$aboutus_numbers_border_color: #e1e1e1;
-$checkspeed_input_bg_color: #dfdfdf;
-$checkspeed_input_text_color: #b6b6b6;
-$members_card_border_color: #efefef;
-$members_card_description_color: #a3a2a2;
-$contact_border_color: #300808;
-$contact_description_color: #909090;
-$contact_input_border_color: #d0c3c9;
-$copyright_border_color: #eae5e5;
+:root {
+  --black-color: #212528;
+  --dark-blue-color: #717ae0;
+  $light_blue_color: #6f77f1;
+  $light_yellow_color: #f7c745;
+  $dark_yellow_color: #fad725;
+  $very_light_grey_color: #fafafa;
+  $medium_grey_color: #727272;
+  $deep_grey_color: #828282;
+  $white_color: #fff;
+  $nav_creative_team_plus_bg_color: #dcddff;
+  $logo_dot_color: #bc424e;
+  $optimise_circle_1_bg_color: #f9ebf0;
+  $optimise_circle_2_bg_color: #ebf9f3;
+  $optimise_circle_3_bg_color: #ebf8fe;
+  $optimise_circle_4_bg_color: #f2f3fa;
+  $optimise_card_bg_numbre_color: #fafaff;
+  $optimise_bg_circle_color: #f5fdff;
+  $blog_card_icon1_bg_color: #ffe8df;
+  $blog_card_icon2_bg_color: #e3ffdf;
+  $blog_card_icon3_bg_color: #fff8df;
+  $aboutus_numbers_description_color: #6f6f6f;
+  $aboutus_number_red_dot_color: #d1563b;
+  $aboutus_number_green_dot_color: #3bd165;
+  $aboutus_card1_bg_color: #f9e4dc;
+  $aboutus_card2_bg_color: #d6f0d2;
+  $aboutus_card3_bg_color: #fef5d4;
+  $aboutus_numbers_border_color: #e1e1e1;
+  $checkspeed_input_bg_color: #dfdfdf;
+  $checkspeed_input_text_color: #b6b6b6;
+  $members_card_border_color: #efefef;
+  $members_card_description_color: #a3a2a2;
+  $contact_border_color: #300808;
+  $contact_description_color: #909090;
+  $contact_input_border_color: #d0c3c9;
+  $copyright_border_color: #eae5e5;
+
+}
 
 * {
   margin: 0;
@@ -74,7 +77,7 @@ body {
   right: -10px;
   height: 8px;
   width: 8px;
-  border: 1px solid $black_color;
+  border: 1px solid --black-color;
   background: $logo_dot_color;
 }
 
@@ -134,8 +137,18 @@ nav {
       .nav-buttons {
         height: 2.5rem;
 
+        .form-check.form-switch {
+          width: 5rem;
+
+          input {
+            min-width: 5rem;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+
         .btn-talk {
-          border: 2px solid $black_color !important;
+          border: 2px solid --black-color !important;
         }
 
         .btn-search {
@@ -174,7 +187,7 @@ nav {
 }
 
 #hero {
-  > .row {
+  >.row {
     .hero-image {
       order: 1;
       aspect-ratio: 1/1;
@@ -188,7 +201,7 @@ nav {
         backdrop-filter: blur(20px);
 
         h2 {
-          color: $black_color;
+          color: --black-color;
           font-family: $font_inter;
         }
 
@@ -247,10 +260,10 @@ nav {
 
       h1 {
         font-size: min(7vw, 2.5rem);
-        color: $black_color;
+        color: --black-color;
         font-family: $font_inter;
 
-        > span {
+        >span {
           font-family: $font_poppins;
           font-size: min(5vw, 1.8rem);
           right: -2%;
@@ -295,13 +308,13 @@ nav {
       .hero-button-group {
         button {
           background: $dark_yellow_color;
-          color: $black_color;
+          color: --black-color;
           border-radius: 3px;
         }
 
         a {
           span {
-            color: $black_color;
+            color: --black-color;
           }
 
           img:last-child {
@@ -331,7 +344,7 @@ nav {
       }
 
       h3 {
-        color: $black_color;
+        color: --black-color;
         font-size: min(6vw, 2rem);
       }
 
@@ -361,7 +374,7 @@ nav {
   }
 
   .optimise-heading {
-    color: $black_color;
+    color: --black-color;
 
     span {
       color: $light_blue_color;
@@ -382,7 +395,7 @@ nav {
         border-bottom: 4px solid transparent !important;
 
         &:hover {
-          border-bottom: 4px solid $dark_blue_color !important;
+          border-bottom: 4px solid --dark-blue-color !important;
           box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
           cursor: default;
           background: #fff;
@@ -415,7 +428,7 @@ nav {
           z-index: 2;
 
           .optimise-card-heading {
-            color: $black_color;
+            color: --black-color;
           }
 
           .optimise-card-description {
@@ -446,7 +459,7 @@ nav {
     order: 2;
 
     .solution-content-heading {
-      color: $black_color;
+      color: --black-color;
 
       span {
         color: $light_blue_color;
@@ -461,7 +474,7 @@ nav {
     .btn-learn-more {
       width: fit-content;
       background: $dark_yellow_color;
-      color: $black_color;
+      color: --black-color;
       border-radius: 3px;
     }
   }
@@ -491,7 +504,7 @@ nav {
       }
 
       .blog-card-heading {
-        color: $black_color;
+        color: --black-color;
       }
 
       .blog-card-description {
@@ -524,7 +537,7 @@ nav {
   background: $very_light_grey_color;
 
   .whywe-heading {
-    color: $black_color;
+    color: --black-color;
 
     span {
       color: $light_blue_color;
@@ -548,13 +561,12 @@ nav {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
         }
 
-        .whywe-card-image {
-        }
+        .whywe-card-image {}
 
         .whywe-card-content {
           h6 {
             font-size: min(4.5vw, 1.5rem);
-            color: $black_color;
+            color: --black-color;
           }
 
           p {
@@ -564,7 +576,7 @@ nav {
 
           button {
             width: fit-content;
-            color: $black_color;
+            color: --black-color;
             background: $dark_yellow_color;
             font-size: min(3vw, 0.85rem);
             border-radius: 4%;
@@ -579,7 +591,7 @@ nav {
 #about {
   .about-content {
     .about-content-heading {
-      color: $black_color;
+      color: --black-color;
 
       span {
         color: $light_blue_color;
@@ -614,7 +626,7 @@ nav {
 
           .about-card-content {
             h5 {
-              color: $black_color;
+              color: --black-color;
               font-size: min(5vw, 1.1rem);
             }
 
@@ -691,7 +703,7 @@ nav {
     order: 2;
 
     .checkspeed-heading {
-      color: $black_color;
+      color: --black-color;
 
       span {
         color: $light_blue_color;
@@ -718,7 +730,7 @@ nav {
         font-size: min(3.2vw, 0.8rem);
         border: none;
         background: $dark_yellow_color;
-        color: $black_color;
+        color: --black-color;
         border-radius: 4px;
       }
     }
@@ -734,7 +746,7 @@ nav {
   background: $very_light_grey_color;
 
   .pricing-heading {
-    color: $black_color;
+    color: --black-color;
   }
 
   .pricing-description {
@@ -764,7 +776,7 @@ nav {
 
         .price {
           z-index: 2;
-          color: $black_color;
+          color: --black-color;
           font-size: min(9vw, 3.5rem);
 
           sub,
@@ -781,11 +793,11 @@ nav {
 
         button {
           z-index: 2;
-          border: 1px solid $black_color;
+          border: 1px solid --black-color;
           background: transparent;
           border-radius: 2px;
           font-size: min(3.5vw, 0.9rem);
-          color: $black_color;
+          color: --black-color;
         }
 
         &:hover {
@@ -805,7 +817,7 @@ nav {
             border: 1px solid #fff;
 
             &:hover {
-              color: $black_color;
+              color: --black-color;
               border: 1px solid $dark_yellow_color;
               background: $dark_yellow_color;
             }
@@ -824,7 +836,7 @@ nav {
 #contact {
   .contact-container {
     .contact-heading {
-      color: $black_color;
+      color: --black-color;
     }
 
     .contact-description {
@@ -858,7 +870,7 @@ nav {
 // Members
 #members {
   .members-heading {
-    color: $black_color;
+    color: --black-color;
 
     span {
       color: $light_blue_color;
@@ -896,7 +908,7 @@ nav {
 
         .members-card-content {
           .members-card-heading {
-            color: $black_color;
+            color: --black-color;
             font-size: min(7vw, 1.5rem);
           }
 
@@ -923,7 +935,7 @@ nav {
 // Client
 #clients {
   .clients-heading {
-    color: $black_color;
+    color: --black-color;
   }
 
   .clients-description {
@@ -973,7 +985,7 @@ nav {
         }
 
         span:first-of-type {
-          color: $black_color;
+          color: --black-color;
           @include sectionDescriptionFontSmall();
         }
 
@@ -1018,7 +1030,7 @@ footer {
     max-width: 22rem;
 
     a {
-      color: $black_color;
+      color: --black-color;
       font-size: min(4vw, 0.9rem);
 
       &:hover {
@@ -1032,6 +1044,7 @@ footer {
   }
 
   .copyright-container {
+
     span,
     .copyright-links-container a {
       font-size: min(3vw, 11px);
@@ -1082,7 +1095,7 @@ footer {
 
 @media (min-width: 768px) {
   #hero {
-    > .row {
+    >.row {
       .hero-image {
         order: unset;
 
@@ -1347,6 +1360,7 @@ footer {
   }
 
   .copyright-container {
+
     span,
     .copyright-links-container a {
       font-size: 11px;
@@ -1423,6 +1437,7 @@ footer {
       }
 
       .hero-button-group {
+
         button,
         a span {
           font-size: min(1.8vw, 0.8rem);
@@ -1569,7 +1584,7 @@ footer {
     background: $very_light_grey_color;
 
     .pricing-heading {
-      color: $black_color;
+      color: --black-color;
     }
 
     .pricing-description {
@@ -1645,6 +1660,7 @@ footer {
   }
 
   .copyright-container {
+
     span,
     .copyright-links-container a {
       font-size: 13px;
@@ -1653,7 +1669,7 @@ footer {
 
   #clients {
     .clients-heading {
-      color: $black_color;
+      color: --black-color;
     }
 
     .clients-description {
