@@ -30,7 +30,7 @@ let darkColors = `
   --optimise-circle-3-bg-color: #e1e1d9;
   --optimise-circle-4-bg-color: #e6e6d9;
   --optimise-card-bg-number-color: #4b4b4b;
-  --optimise-bg-circle-color: #f6f6f2;
+  --optimise-bg-circle-color: #393931a0;
   --blog-card-icon1-bg-color: #a6c1c1;
   --blog-card-icon2-bg-color: #c1a6c1;
   --blog-card-icon3-bg-color: #c1c1a6;
