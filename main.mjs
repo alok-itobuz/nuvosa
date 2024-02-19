@@ -1,3 +1,5 @@
+const navbar = document.querySelector("nav");
+const heroSection = document.querySelector("#hero");
 const themeToggler = document.querySelector(".web-theme-toggler");
 const takeATourEmbed = document.querySelector(".youtube-group embed");
 const commaEmbeds = document.querySelectorAll(
@@ -6,7 +8,20 @@ const commaEmbeds = document.querySelectorAll(
 const carauselCards = document.querySelectorAll(".carausel-card");
 const carauselNavigation = document.querySelector(".carausel-navigation");
 const arrowRight = document.querySelectorAll(".project-card-body > a > embed");
-console.log(arrowRight);
+
+// sticky navbar
+function stickyNav(entries) {
+  const [entry] = entries;
+  !entry.isIntersecting
+    ? navbar.classList.add("sticky-nav")
+    : navbar.classList.remove("sticky-nav");
+}
+const navObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  rootMargin: `-${navbar.getBoundingClientRect().height}px`,
+  threshold: 0,
+});
+navObserver.observe(heroSection);
 
 // carausel
 const TRANSLATE_PERCENTAGE = 100;
@@ -56,6 +71,10 @@ carauselNavigation.addEventListener("click", function (e) {
   currSlide = e.target.dataset.slide;
   goToSlide();
 });
+
+setInterval(function () {
+  nextSlide();
+}, 2000);
 
 //////// theme change
 function convertCssToArray(str) {
@@ -203,5 +222,3 @@ function themeSetter(e) {
 }
 themeToggler.addEventListener("change", themeSetter);
 window.addEventListener("load", themeSetter);
-
-//////////
