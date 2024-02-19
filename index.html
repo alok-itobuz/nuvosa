@@ -1,1024 +1,1622 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nuvosa</title>
+    <link
+      target="_blank"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" target="_blank" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nuvosa</title>
-  <link target="_blank" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" target="_blank" href="styles.css" />
-</head>
-
-<body>
-  <!-- Nav -->
-  <nav class="navbar container navbar-expand-lg ">
-    <div class="container-fluid h-100">
-      <a class="navbar-brand fs-3 rounded-5 me-0 position-relative fw-semibold" href="#">nuvosa
-        <span class="d-inline-block rounded-5 position-absolute top-50"></span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse p-3 p-lg-0" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
-          <li class="nav-item position-relative">
-            <a class="nav-link active fs-6" aria-current="page" href="#hero">Home</a>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-          </li>
-          <li class="nav-item position-relative">
-            <a class="nav-link fs-6" aria-current="page" href="#projects">Projects</a>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-          </li>
-          <li class="nav-item position-relative">
-            <a class="nav-link fs-6" aria-current="page" href="#blog">Blog</a>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-          </li>
-          <li class="nav-item position-relative">
-            <a class="nav-link fs-6" aria-current="page" href="#">Pricing</a>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-          </li>
-          <li class="nav-item position-relative">
-            <a class="nav-link fs-6" aria-current="page" href="#">Contact</a>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-            <span class="d-none d-lg-inline-block position-absolute"></span>
-          </li>
-        </ul>
-        <div class="nav-buttons d-flex align-items-center gap-2">
-          <div class="form-check form-switch p-0 position-relative ">
-            <input class="web-theme-toggler form-check-input h-75 position-absolute  m-0 " type="checkbox" role="switch"
-              id="flexSwitchCheckDefault" />
-          </div>
-          <button
-            class="btn-talk d-flex align-items-center justify-content-center h-100 fs-6 fw-semibold py-2 px-3 rounded-2"
-            type="submit">
-            Let's Talk
-          </button>
-          <button
-            class="btn-search d-flex align-items-center justify-content-center h-100 p-2 p-lg-2 rounded-2 border-0"
-            type="submit">
-            <img src="./images/navbar/nav_Search_icon.svg" alt="search icon" />
-          </button>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <section id="hero" class="container py-3 py-lg-5">
-    <div class="row m-0 mx-auto">
-      <div
-        class="hero-content col-12 col-md-6 py-5 py-md-0 d-flex flex-column justify-content-center gap-4 gap-md-4 gap-lg-5">
-        <h1 class="fw-bold m-0">
-          Increase your web <br />
-          traffic with our
-          <span class="fw-semibold position-relative d-inline-block px-2 py-1">
-            expert
-            <span class="expert-dot d-inline-block-0 rounded-5"></span><span
-              class="expert-dot d-inline-block-0 rounded-5"></span><span
-              class="expert-dot d-inline-block-0 rounded-5"></span><span
-              class="expert-dot d-inline-block-0 rounded-5"></span>
-          </span>
-        </h1>
-        <p class="hero-description m-0 p-0">
-          It is a long established fact that a reader will be distracted by
-          the readable content of a page when It is a long .It is a long
-          established fact that a reader will be distracted by the readable
-          content of a is simply. It is a long established fact that a reader
-          will be distracted.
-        </p>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar container navbar-expand-lg">
+      <div class="container-fluid h-100">
+        <a
+          class="navbar-brand fs-3 rounded-5 me-0 position-relative fw-semibold"
+          href="#"
+          >nuvosa
+          <span class="d-inline-block rounded-5 position-absolute top-50"></span
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div
-          class="hero-button-group p-0 d-flex align-items-center justify-content-between justify-content-sm-start gap-sm-5">
-          <button class="btn-get-started h-100 py-1 px-3 py-md-2 px-md-4 fw-medium border-0">
-            Get Started
-          </button>
-          <a
-            class="youtube-group position-relative d-flex align-items-center justify-content-around gap-2 text-decoration-none">
-            <img src="./images/hero/youtube_green.svg" alt="green youtube icon" class="h-25" />
-            <span>Take a tour</span>
-            <img src="./images/hero/take_a_tour.svg" alt="take a tour round image" class="position-absolute" />
-          </a>
+          class="collapse navbar-collapse p-3 p-lg-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+            <li class="nav-item position-relative">
+              <a class="nav-link active fs-6" aria-current="page" href="#hero"
+                >Home</a
+              >
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-6" aria-current="page" href="#projects"
+                >Projects</a
+              >
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-6" aria-current="page" href="#blog">Blog</a>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-6" aria-current="page" href="#">Pricing</a>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link fs-6" aria-current="page" href="#">Contact</a>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+              <span class="d-none d-lg-inline-block position-absolute"></span>
+            </li>
+          </ul>
+          <div class="nav-buttons d-flex align-items-center gap-2">
+            <div class="form-check form-switch p-0 position-relative">
+              <input
+                class="web-theme-toggler form-check-input h-75 position-absolute m-0"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+            </div>
+            <button
+              class="btn-talk d-flex align-items-center justify-content-center h-100 fs-6 fw-semibold py-2 px-3 rounded-2"
+              type="submit"
+            >
+              Let's Talk
+            </button>
+            <button
+              class="btn-search d-flex align-items-center justify-content-center h-100 p-2 p-lg-2 rounded-2 border-0"
+              type="submit"
+            >
+              <img
+                src="./images/navbar/nav_Search_icon.svg"
+                alt="search icon"
+              />
+            </button>
+          </div>
         </div>
       </div>
-      <div class="hero-image col-12 col-md-6 position-relative">
-        <img src="./images/hero/girl_wo_team.png" alt="a smiling girl" class="w-100 object-fit-cover" />
-        <div class="hero-creative-team-card d-flex flex-column justify-content-center gap-2 px-3 mx-auto mx-md-0">
-          <h2 class="fs-6 m-0">Our Creative Team</h2>
-          <div class="creative-team position-relative h-50 d-flex align-items-center justify-content-between">
-            <div class="creative-team-member flex-grow-1 position-relative">
-              <div class="team-member-image-container position-absolute"></div>
-            </div>
-            <div class="creative-team-member flex-grow-1 position-relative">
-              <div class="team-member-image-container position-absolute"></div>
-            </div>
-            <div class="creative-team-member flex-grow-1 position-relative">
-              <div class="team-member-image-container position-absolute"></div>
-            </div>
-            <div class="creative-team-member flex-grow-1 position-relative">
-              <div class="team-member-image-container position-absolute"></div>
-            </div>
-            <div class="creative-team-member flex-grow-1 position-relative">
-              <div
-                class="team-member-image-container position-absolute d-flex align-items-center justify-content-center">
-                <img src="./images/hero/hero_member_plus.svg" alt="Hero member" />
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="container py-3 py-lg-5">
+      <div class="row m-0 mx-auto">
+        <div
+          class="hero-content col-12 col-md-6 py-5 py-md-0 d-flex flex-column justify-content-center gap-4 gap-md-4 gap-lg-5"
+        >
+          <h1 class="fw-bold m-0">
+            Increase your web <br />
+            traffic with our
+            <span
+              class="fw-semibold position-relative d-inline-block px-2 py-1"
+            >
+              expert
+              <span class="expert-dot d-inline-block-0 rounded-5"></span
+              ><span class="expert-dot d-inline-block-0 rounded-5"></span
+              ><span class="expert-dot d-inline-block-0 rounded-5"></span
+              ><span class="expert-dot d-inline-block-0 rounded-5"></span>
+            </span>
+          </h1>
+          <p class="hero-description m-0 p-0">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when It is a long .It is a long
+            established fact that a reader will be distracted by the readable
+            content of a is simply. It is a long established fact that a reader
+            will be distracted.
+          </p>
+          <div
+            class="hero-button-group p-0 d-flex align-items-center justify-content-between justify-content-sm-start gap-sm-5"
+          >
+            <button
+              class="btn-get-started h-100 py-1 px-3 py-md-2 px-md-4 fw-medium border-0"
+            >
+              Get Started
+            </button>
+            <a
+              class="youtube-group position-relative d-flex align-items-center justify-content-around gap-2 text-decoration-none"
+            >
+              <img
+                src="./images/hero/youtube_green.svg"
+                alt="green youtube icon"
+                class="h-25"
+              />
+              <span>Take a tour</span>
+              <img
+                src="./images/hero/take_a_tour.svg"
+                alt="take a tour round image"
+                class="position-absolute"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="hero-image col-12 col-md-6 position-relative">
+          <img
+            src="./images/hero/girl_wo_team.png"
+            alt="a smiling girl"
+            class="w-100 object-fit-cover"
+          />
+          <div
+            class="hero-creative-team-card d-flex flex-column justify-content-center gap-2 px-3 mx-auto mx-md-0"
+          >
+            <h2 class="fs-6 m-0">Our Creative Team</h2>
+            <div
+              class="creative-team position-relative h-50 d-flex align-items-center justify-content-between"
+            >
+              <div class="creative-team-member flex-grow-1 position-relative">
+                <div
+                  class="team-member-image-container position-absolute"
+                ></div>
+              </div>
+              <div class="creative-team-member flex-grow-1 position-relative">
+                <div
+                  class="team-member-image-container position-absolute"
+                ></div>
+              </div>
+              <div class="creative-team-member flex-grow-1 position-relative">
+                <div
+                  class="team-member-image-container position-absolute"
+                ></div>
+              </div>
+              <div class="creative-team-member flex-grow-1 position-relative">
+                <div
+                  class="team-member-image-container position-absolute"
+                ></div>
+              </div>
+              <div class="creative-team-member flex-grow-1 position-relative">
+                <div
+                  class="team-member-image-container position-absolute d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    src="./images/hero/hero_member_plus.svg"
+                    alt="Hero member"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects -->
-  <section id="projects" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0">
-      <div class="project-card col-12 col-md-4 p-2 p-sm-1 p-lg-2 mx-auto">
-        <div class="project-card-body row m-0 p-1 h-100 w-100">
-          <div class="project-card-image col-4 p-0 d-flex align-items-center justify-content-center">
-            <img src="./images/projects/social_media_marketing.svg" alt="Social Media Management"
-              class="w-75 object-fit-cover" />
+    <!-- Projects -->
+    <section id="projects" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0">
+        <div class="project-card col-12 col-md-4 p-2 p-sm-1 p-lg-2 mx-auto">
+          <div class="project-card-body row m-0 p-1 h-100 w-100">
+            <div
+              class="project-card-image col-4 p-0 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./images/projects/social_media_marketing.svg"
+                alt="Social Media Management"
+                class="w-75 object-fit-cover"
+              />
+            </div>
+            <h3 class="col-8 m-0 d-flex align-items-center p-0">
+              Social Media <br />
+              Management
+            </h3>
+            <p class="project-card-description col-12 m-0">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that .
+            </p>
+            <a target="_blank" href="#" class="col-1 d-inline-block p-0 ms-auto"
+              ><img
+                src="./images/icons/arrow-right.svg"
+                alt="right arrow icon"
+                class="w-100"
+            /></a>
           </div>
-          <h3 class="col-8 m-0 d-flex align-items-center p-0">
-            Social Media <br />
-            Management
-          </h3>
-          <p class="project-card-description col-12 m-0">
-            It is a long established fact that a reader will be distracted by
-            the readable content .It is a long established fact that .
-          </p>
-          <a target="_blank" href="#" class="col-1 d-inline-block p-0 ms-auto"><img src="./images/icons/arrow-right.svg"
-              alt="right arrow icon" class="w-100" /></a>
+        </div>
+        <div class="project-card mx-auto col-12 col-md-4 p-2 p-sm-1 p-lg-2">
+          <div class="project-card-body row m-0 p-1 h-100 w-100">
+            <div
+              class="project-card-image col-4 p-0 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./images/projects/email_marketing.svg"
+                alt="Social Media Management"
+                class="w-75 object-fit-cover"
+              />
+            </div>
+            <h3 class="col-8 m-0 d-flex align-items-center p-0">
+              Email <br />
+              Marketing
+            </h3>
+            <p class="project-card-description col-12 m-0">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that .
+            </p>
+            <a target="_blank" href="#" class="col-1 d-inline-block ms-auto p-0"
+              ><img
+                src="./images/icons/arrow-right.svg"
+                alt="right arrow icon"
+                class="w-100"
+            /></a>
+          </div>
+        </div>
+        <div class="project-card mx-auto col-12 col-md-4 p-2 p-sm-1 p-lg-2">
+          <div class="project-card-body row m-0 p-1 h-100 w-100">
+            <div
+              class="project-card-image col-4 p-0 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./images/projects/seo_management.svg"
+                alt="Social Media Management"
+                class="w-75"
+              />
+            </div>
+            <h3 class="col-8 m-0 d-flex align-items-center p-0">
+              SEO <br />
+              Management
+            </h3>
+            <p class="project-card-description col-12 m-0">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that a reader
+              .
+            </p>
+            <a target="_blank" href="#" class="col-1 d-inline-block ms-auto p-0"
+              ><img
+                src="./images/icons/arrow-right.svg"
+                alt="right arrow icon"
+                class="w-100"
+            /></a>
+          </div>
         </div>
       </div>
-      <div class="project-card mx-auto col-12 col-md-4 p-2 p-sm-1 p-lg-2">
-        <div class="project-card-body row m-0 p-1 h-100 w-100">
-          <div class="project-card-image col-4 p-0 d-flex align-items-center justify-content-center">
-            <img src="./images/projects/email_marketing.svg" alt="Social Media Management"
-              class="w-75 object-fit-cover" />
+    </section>
+
+    <!-- Optimise -->
+    <section
+      id="optimise"
+      class="container py-3 py-lg-5 pb-lg-5 position-relative"
+    >
+      <span class="bg-circle p-4 d-none d-lg-block position-absolute"></span>
+      <div class="row m-0 p-0 gap-3">
+        <h2 class="optimise-heading m-0 col-12 fw-medium">
+          Optimising your <span class="fw-medium">Website</span>
+        </h2>
+        <p class="optimise-description m-0 col-12 fw-normal">
+          It is a long established fact that a reader will be distracted by the
+          readable content <br class="d-none d-md-block" />
+          of a page when It is a long .
+        </p>
+        <div class="optimise-card-container row m-0 p-0">
+          <div
+            class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto"
+          >
+            <div
+              class="optimise-card-body w-100 h-100 p-4 d-flex flex-column position-relative gap-4 gap-lg-5"
+            >
+              <h3 class="bg-text m-0 position-absolute">1</h3>
+              <div class="image-circle position-relative">
+                <img
+                  src="./images/optimise/keywords.svg"
+                  alt="Keyword Research Image"
+                  class="position-absolute"
+                />
+              </div>
+              <div
+                class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center"
+              >
+                <h4 class="optimise-card-heading fw-medium m-0">
+                  Keyword Research
+                </h4>
+                <p class="optimise-card-description m-0 fw-normal">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
           </div>
-          <h3 class="col-8 m-0 d-flex align-items-center p-0">
-            Email <br />
-            Marketing
-          </h3>
-          <p class="project-card-description col-12 m-0">
-            It is a long established fact that a reader will be distracted by
-            the readable content .It is a long established fact that .
-          </p>
-          <a target="_blank" href="#" class="col-1 d-inline-block ms-auto p-0"><img src="./images/icons/arrow-right.svg"
-              alt="right arrow icon" class="w-100" /></a>
+          <div
+            class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto"
+          >
+            <div
+              class="optimise-card-body w-100 h-100 p-4 d-flex flex-column position-relative gap-4 gap-lg-5"
+            >
+              <h3 class="bg-text m-0 position-absolute">2</h3>
+              <div class="image-circle position-relative">
+                <img
+                  src="./images/optimise/content_management.svg"
+                  alt="Keyword Research Image"
+                  class="position-absolute"
+                />
+              </div>
+              <div
+                class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center"
+              >
+                <h4 class="optimise-card-heading fw-medium m-0">
+                  Content Optimisation
+                </h4>
+                <p class="optimise-card-description m-0 fw-normal">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto"
+          >
+            <div
+              class="optimise-card-body w-100 h-100 p-4 d-flex flex-column position-relative gap-4 gap-lg-5"
+            >
+              <h3 class="bg-text m-0 position-absolute">3</h3>
+              <div class="image-circle position-relative">
+                <img
+                  src="./images/optimise/target_analysis.svg"
+                  alt="Keyword Research Image"
+                  class="position-absolute"
+                />
+              </div>
+              <div
+                class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center"
+              >
+                <h4 class="optimise-card-heading fw-medium m-0">
+                  Target Analysis
+                </h4>
+                <p class="optimise-card-description m-0 fw-normal">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto"
+          >
+            <div
+              class="optimise-card-body w-100 h-100 p-4 d-flex flex-column gap-4 gap-lg-5 position-relative"
+            >
+              <h3 class="bg-text m-0 position-absolute">4</h3>
+              <div class="image-circle position-relative">
+                <img
+                  src="./images/optimise/continuous_testing.svg"
+                  alt="Keyword Research Image"
+                  class="position-absolute"
+                />
+              </div>
+              <div
+                class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center"
+              >
+                <h4 class="optimise-card-heading fw-medium m-0">
+                  Continuous Testing
+                </h4>
+                <p class="optimise-card-description m-0 fw-normal">
+                  It is a long established fact that a reader will be distracted
+                  by the It is a long established .
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="project-card mx-auto col-12 col-md-4 p-2 p-sm-1 p-lg-2">
-        <div class="project-card-body row m-0 p-1 h-100 w-100">
-          <div class="project-card-image col-4 p-0 d-flex align-items-center justify-content-center">
-            <img src="./images/projects/seo_management.svg" alt="Social Media Management" class="w-75" />
+    </section>
+
+    <!-- Solution -->
+    <section id="solution" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0">
+        <div
+          class="solution-content col-12 col-md-6 d-flex flex-column justify-content-center gap-3 gap-lg-4 px-lg-3"
+        >
+          <h2 class="solution-content-heading fw-medium m-0">
+            Perfect Solution For <br />Your
+            <span class="fw-medium">Business</span>
+          </h2>
+          <p class="solution-content-description m-0">
+            It is a long established fact that a reader will be distracted by
+            the It is a long established .t is a long established fact that a
+            reader will be distracted by the readable content of.
+          </p>
+          <button
+            class="btn-learn-more py-2 px-3 py-lg-3 px-lg-4 fw-medium border-0"
+          >
+            Learn More
+          </button>
+        </div>
+        <div class="solution-image col-12 col-md-6 p-4 py-lg-0 px-lg-3">
+          <img
+            src="./images/solution/macbook.svg"
+            alt="Macbook pro"
+            class="w-100"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0">
+        <div class="blog-card mx-auto col-12 col-md-4 p-3 p-md-2 p-lg-3">
+          <div
+            class="blog-card-body w-100 h-100 d-flex flex-column justify-content-evenly p-3 p-lg-4"
+          >
+            <div class="blog-card-image d-inline-block p-2">
+              <img
+                src="./images/blog/grow_your_business.svg"
+                alt="Grow Your Business image"
+              />
+            </div>
+            <h6 class="blog-card-heading fw-medium m-0">Grow Your Business</h6>
+            <p class="blog-card-description m-0">
+              It is a long established fact that a reader will be distracted by.
+            </p>
+            <a
+              target="_blank"
+              href="#"
+              class="fw-medium text-decoration-none m-0"
+              >Read More...</a
+            >
           </div>
-          <h3 class="col-8 m-0 d-flex align-items-center p-0">
-            SEO <br />
-            Management
-          </h3>
-          <p class="project-card-description col-12 m-0">
+        </div>
+        <div class="blog-card mx-auto col-12 col-md-4 p-3 p-md-2 p-lg-3">
+          <div
+            class="blog-card-body w-100 h-100 d-flex flex-column justify-content-evenly p-3 p-lg-4"
+          >
+            <div class="blog-card-image d-inline-block p-2">
+              <img
+                src="./images/blog/get_quality_leads.svg"
+                alt="Grow Your Business image"
+              />
+            </div>
+            <h6 class="blog-card-heading fw-medium m-0">Get Quality leads</h6>
+            <p class="blog-card-description m-0">
+              It is a long established fact that a reader will be distracted by.
+            </p>
+            <a
+              target="_blank"
+              href="#"
+              class="fw-medium text-decoration-none m-0"
+              >Read More...</a
+            >
+          </div>
+        </div>
+        <div class="blog-card mx-auto col-12 col-md-4 p-3 p-md-2 p-lg-3">
+          <div
+            class="blog-card-body w-100 h-100 d-flex flex-column justify-content-evenly p-3 p-lg-4"
+          >
+            <div class="blog-card-image d-inline-block p-2">
+              <img
+                src="./images/blog/drive_more_sales.svg"
+                alt="Grow Your Business image"
+              />
+            </div>
+            <h6 class="blog-card-heading fw-medium m-0">Drive more sales</h6>
+            <p class="blog-card-description m-0">
+              It is a long established fact that a reader will be distracted by.
+            </p>
+            <a
+              target="_blank"
+              href="#"
+              class="fw-medium text-decoration-none m-0"
+              >Read More...</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why We -->
+    <section id="whywe" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0 gap-3">
+        <h2 class="whywe-heading m-0 col-12 fw-medium text-md-center">
+          why you should <span class="fw-medium">choose us.</span>
+        </h2>
+        <p class="whywe-description m-0 col-12 fw-normal text-md-center">
+          It is a long established fact that a reader will be distracted by the
+          readable content .It is a long established
+          <br class="d-none d-lg-block" />fact that a reader .It is a long
+          established fact that a reader will be.
+        </p>
+        <div class="whywe-card-container row m-0 p-0">
+          <div class="whywe-card col-12 col-md-4 p-3">
+            <div class="whywe-card-body row h-100 w-100 m-0">
+              <div
+                class="whywe-card-image col-4 col-md-12 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="./images/whywe/seo_optimisation.svg"
+                  alt="See Optimazadion"
+                  class="w-100"
+                />
+              </div>
+              <div
+                class="whywe-card-content col-8 col-md-12 d-flex flex-column justify-content-center align-items-md-center gap-2 gap-sm-3 gap-md-2 gap-xl-3 gap-xxl-4"
+              >
+                <h6 class="m-0 text-md-center">See Optimazadion</h6>
+                <p class="m-0 text-md-center">
+                  It is a long established fact that a
+                  <br class="d-none d-lg-block" />
+                  reader will be distracted by.It is a
+                  <br class="d-none d-lg-block" />
+                  long established.
+                </p>
+                <button
+                  class="btn-learn-more fw-medium py-1 px-3 py-sm-2 px-sm-3 py-md-1 px-md-2 py-lg-2 px-lg-3 border-0"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="whywe-card col-12 col-md-4 p-3">
+            <div class="whywe-card-body row h-100 w-100 m-0">
+              <div
+                class="whywe-card-image col-4 col-md-12 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="./images/whywe/keyword_research.svg"
+                  alt="See Optimazadion"
+                  class="w-100"
+                />
+              </div>
+              <div
+                class="whywe-card-content col-8 col-md-12 d-flex flex-column justify-content-center align-items-md-center gap-2 gap-sm-3 gap-md-2 gap-xl-3 gap-xxl-4"
+              >
+                <h6 class="m-0 text-md-center">Keyword research</h6>
+                <p class="m-0 text-md-center">
+                  It is a long established fact that a
+                  <br class="d-none d-lg-block" />
+                  reader will be distracted by.It is a
+                  <br class="d-none d-lg-block" />
+                  long established.
+                </p>
+                <button
+                  class="btn-learn-more fw-medium py-1 px-3 py-sm-2 px-sm-3 py-md-1 px-md-2 py-lg-2 px-lg-3 border-0"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="whywe-card col-12 col-md-4 p-3">
+            <div class="whywe-card-body row h-100 w-100 m-0">
+              <div
+                class="whywe-card-image col-4 col-md-12 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="./images/whywe/social_marketing.svg"
+                  alt="See Optimazadion"
+                  class="w-100"
+                />
+              </div>
+              <div
+                class="whywe-card-content col-8 col-md-12 d-flex flex-column justify-content-center align-items-md-center gap-2 gap-sm-3 gap-md-2 gap-xl-3 gap-xxl-4"
+              >
+                <h6 class="m-0 text-md-center">Social Marketing</h6>
+                <p class="m-0 text-md-center">
+                  It is a long established fact that a
+                  <br class="d-none d-lg-block" />
+                  reader will be distracted by.It is a
+                  <br class="d-none d-lg-block" />
+                  long established.
+                </p>
+                <button
+                  class="btn-learn-more fw-medium py-1 px-3 py-sm-2 px-sm-3 py-md-1 px-md-2 py-lg-2 px-lg-3 border-0"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="container py-3 py-lg-5">
+      <div class="container row m-0 p-0">
+        <div
+          class="about-image col-12 col-md-6 d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="./images/aboutus/aboutus_bg.svg"
+            alt="About Us Image"
+            class="w-100 object-fit-contain"
+          />
+        </div>
+        <div
+          class="about-content col-12 col-md-6 d-flex flex-column justify-content-between gap-2"
+        >
+          <h2 class="about-content-heading m-0">
+            You make ask what <br class="d-none d-md-block" />
+            SEO & why do you <span>need it?</span>
+          </h2>
+          <p class="about-content-description m-0">
+            It is a long established fact that a reader will be distracted by
+            the readable <br class="d-none d-xxl-block" />
+            content .It is a long established fact that a reader .It is a long.
+          </p>
+          <div
+            class="about-content-card-container row m-0 w-100 flex-grow-1 gap-3 gap-sm-0 p-0"
+          >
+            <div class="about-card col-12 mx-auto p-0 py-2 px-sm-1">
+              <div class="about-card-body row m-0 w-100 h-100">
+                <div
+                  class="about-card-image col-4 col-md-3 d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="image-container w-100 d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="./images/aboutus/social_media_marketing.svg"
+                      alt="Social Media Marketing"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="about-card-content col-8 col-md-9 d-flex flex-column justify-content-center gap-2 justify-content-lg-evenly"
+                >
+                  <h5 class="m-0">Social Media Marketing</h5>
+                  <p class="m-0">
+                    It is a long established fact that a reader will be
+                    <br class="d-none d-xxl-block" />
+                    distracted by the.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about-card col-12 mx-auto p-0 py-2 px-sm-1">
+              <div class="about-card-body row m-0 w-100 h-100">
+                <div
+                  class="about-card-image col-4 col-md-3 d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="image-container w-100 d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="./images/aboutus/email_marketing.svg"
+                      alt="Email Marketing"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="about-card-content col-8 col-md-9 d-flex flex-column justify-content-center gap-2 justify-content-lg-evenly"
+                >
+                  <h5 class="m-0">Email marketing</h5>
+                  <p class="m-0">
+                    It is a long established fact that a reader will be
+                    <br class="d-none d-xxl-block" />
+                    distracted by the.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about-card col-12 mx-auto p-0 py-2 px-sm-1">
+              <div class="about-card-body row m-0 w-100 h-100">
+                <div
+                  class="about-card-image col-4 col-md-3 d-flex align-items-center justify-content-center"
+                >
+                  <div
+                    class="image-container w-100 d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="./images/aboutus/seo_optimization.svg"
+                      alt="SEO Optimisation"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="about-card-content col-8 col-md-9 d-flex flex-column justify-content-center gap-2 justify-content-lg-evenly"
+                >
+                  <h5 class="m-0">SEO optimization</h5>
+                  <p class="m-0">
+                    It is a long established fact that a reader will be
+                    <br class="d-none d-xxl-block" />
+                    distracted by the.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="achivements-container row m-0 col-12 col-lg-11 mx-auto mt-5 py-2 py-xl-0 justify-content-md-center"
+        >
+          <div class="numbers col-6 col-md-2 p-3 p-md-0">
+            <div
+              class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1"
+            >
+              <h2 class="m-0 fw-semibold">86</h2>
+              <p class="m-0 fw-medium">Happy Clients</p>
+            </div>
+          </div>
+          <span
+            class="d-none col-md-1 d-md-flex align-items-center justify-content-center"
+          >
+            <span class="circle d-inline-block"></span>
+          </span>
+          <div class="numbers col-6 col-md-2 p-3 p-md-0">
+            <div
+              class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1"
+            >
+              <h2 class="m-0 fw-semibold">118</h2>
+              <p class="m-0 fw-medium">Project Done</p>
+            </div>
+          </div>
+
+          <span
+            class="d-none col-md-1 d-md-flex align-items-center justify-content-center"
+          >
+            <span class="circle d-inline-block"></span>
+          </span>
+          <div class="numbers col-6 col-md-2 p-3 p-md-0">
+            <div
+              class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1"
+            >
+              <h2 class="m-0 fw-semibold">6+</h2>
+              <p class="m-0 fw-medium">Years Of Experience</p>
+            </div>
+          </div>
+
+          <span
+            class="d-none col-md-1 d-md-flex align-items-center justify-content-center"
+          >
+            <span class="circle d-inline-block"></span>
+          </span>
+          <div class="numbers col-6 col-md-2 p-3 p-md-0">
+            <div
+              class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1 me-auto"
+            >
+              <h2 class="m-0 fw-semibold">14</h2>
+              <p class="m-0 fw-medium">National Awards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Check Speed -->
+    <section id="checkspeed" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0">
+        <div
+          class="checkspeed-content d-flex flex-column justify-content-center col-12 col-md-6 gap-3 gap-lg-4"
+        >
+          <h2 class="checkspeed-heading m-0 fw-medium">
+            Check your website <span>speed</span>
+          </h2>
+          <p class="m-0 checkspeed-description">
             It is a long established fact that a reader will be distracted by
             the readable content .It is a long established fact that a reader
-            .
+            .It is a long.
           </p>
-          <a target="_blank" href="#" class="col-1 d-inline-block ms-auto p-0"><img src="./images/icons/arrow-right.svg"
-              alt="right arrow icon" class="w-100" /></a>
+          <form action="#" class="row m-0 gap-2 gap-lg-0">
+            <div
+              class="input-div row m-0 p-0 col-12 col-lg-10 gap-2 gap-lg-0 pe-lg-2"
+            >
+              <input
+                type="text"
+                placeholder="Web URL"
+                class="col-12 col-lg-6 p-2 p-lg-3"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="col-12 col-lg-6 p-2 p-lg-3"
+              />
+            </div>
+            <button
+              type="submit"
+              class="col-3 col-lg-2 mx-md-0 fw-medium py-2 px-3 border-0 d-flex align-items-center justify-content-center"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="checkspeed-image col-12 col-md-6">
+          <img
+            src="./images/checkspeed/checkspeed_bg.svg"
+            alt="Check Internet Speed"
+            class="w-100"
+          />
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Optimise -->
-  <section id="optimise" class="container py-3 py-lg-5 pb-lg-5 position-relative">
-    <span class="bg-circle p-4 d-none d-lg-block position-absolute"></span>
-    <div class="row m-0 p-0 gap-3">
-      <h2 class="optimise-heading m-0 col-12 fw-medium">
-        Optimising your <span class="fw-medium">Website</span>
-      </h2>
-      <p class="optimise-description m-0 col-12 fw-normal">
-        It is a long established fact that a reader will be distracted by the
-        readable content <br class="d-none d-md-block" />
-        of a page when It is a long .
+    <!-- Pricing -->
+    <section id="pricing" class="container py-3 py-lg-5">
+      <h2 class="m-0 pricing-heading text-center fw-medium">Our Plans</h2>
+      <p class="m-0 pricing-description text-center mt-2">
+        Choose the right SEO for you
       </p>
-      <div class="optimise-card-container row m-0 p-0">
-        <div class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto">
-          <div class="optimise-card-body w-100 h-100 p-4 d-flex flex-column position-relative gap-4 gap-lg-5">
-            <h3 class="bg-text m-0 position-absolute">1</h3>
-            <div class="image-circle position-relative">
-              <img src="./images/optimise/keywords.svg" alt="Keyword Research Image" class="position-absolute" />
-            </div>
-            <div class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center">
-              <h4 class="optimise-card-heading fw-medium m-0">
-                Keyword Research
-              </h4>
-              <p class="optimise-card-description m-0 fw-normal">
-                It is a long established fact that a reader will be distracted
-                by the It is a long established .
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto">
-          <div class="optimise-card-body w-100 h-100 p-4 d-flex flex-column position-relative gap-4 gap-lg-5">
-            <h3 class="bg-text m-0 position-absolute">2</h3>
-            <div class="image-circle position-relative">
-              <img src="./images/optimise/content_management.svg" alt="Keyword Research Image"
-                class="position-absolute" />
-            </div>
-            <div class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center">
-              <h4 class="optimise-card-heading fw-medium m-0">
-                Content Optimisation
-              </h4>
-              <p class="optimise-card-description m-0 fw-normal">
-                It is a long established fact that a reader will be distracted
-                by the It is a long established .
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto">
-          <div class="optimise-card-body w-100 h-100 p-4 d-flex flex-column position-relative gap-4 gap-lg-5">
-            <h3 class="bg-text m-0 position-absolute">3</h3>
-            <div class="image-circle position-relative">
-              <img src="./images/optimise/target_analysis.svg" alt="Keyword Research Image" class="position-absolute" />
-            </div>
-            <div class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center">
-              <h4 class="optimise-card-heading fw-medium m-0">
-                Target Analysis
-              </h4>
-              <p class="optimise-card-description m-0 fw-normal">
-                It is a long established fact that a reader will be distracted
-                by the It is a long established .
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="optimise-card col-12 col-md-6 col-lg-3 p-2 p-md-4 p-lg-3 mx-auto">
-          <div class="optimise-card-body w-100 h-100 p-4 d-flex flex-column gap-4 gap-lg-5 position-relative">
-            <h3 class="bg-text m-0 position-absolute">4</h3>
-            <div class="image-circle position-relative">
-              <img src="./images/optimise/continuous_testing.svg" alt="Keyword Research Image"
-                class="position-absolute" />
-            </div>
-            <div class="optimise-card-text flex-grow-1 d-flex flex-column gap-2 justify-content-center">
-              <h4 class="optimise-card-heading fw-medium m-0">
-                Continuous Testing
-              </h4>
-              <p class="optimise-card-description m-0 fw-normal">
-                It is a long established fact that a reader will be distracted
-                by the It is a long established .
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Solution -->
-  <section id="solution" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0">
-      <div class="solution-content col-12 col-md-6 d-flex flex-column justify-content-center gap-3 gap-lg-4 px-lg-3">
-        <h2 class="solution-content-heading fw-medium m-0">
-          Perfect Solution For <br />Your
-          <span class="fw-medium">Business</span>
-        </h2>
-        <p class="solution-content-description m-0">
-          It is a long established fact that a reader will be distracted by
-          the It is a long established .t is a long established fact that a
-          reader will be distracted by the readable content of.
-        </p>
-        <button class="btn-learn-more py-2 px-3 py-lg-3 px-lg-4 fw-medium border-0">
-          Learn More
-        </button>
-      </div>
-      <div class="solution-image col-12 col-md-6 p-4 py-lg-0 px-lg-3">
-        <img src="./images/solution/macbook.svg" alt="Macbook pro" class="w-100" />
-      </div>
-    </div>
-  </section>
-
-  <!-- Blog -->
-  <section id="blog" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0">
-      <div class="blog-card mx-auto col-12 col-md-4 p-3 p-md-2 p-lg-3">
-        <div class="blog-card-body w-100 h-100 d-flex flex-column justify-content-evenly p-3 p-lg-4">
-          <div class="blog-card-image d-inline-block p-2">
-            <img src="./images/blog/grow_your_business.svg" alt="Grow Your Business image" />
-          </div>
-          <h6 class="blog-card-heading fw-medium m-0">Grow Your Business</h6>
-          <p class="blog-card-description m-0">
-            It is a long established fact that a reader will be distracted by.
-          </p>
-          <a target="_blank" href="#" class="fw-medium text-decoration-none m-0">Read More...</a>
-        </div>
-      </div>
-      <div class="blog-card mx-auto col-12 col-md-4 p-3 p-md-2 p-lg-3">
-        <div class="blog-card-body w-100 h-100 d-flex flex-column justify-content-evenly p-3 p-lg-4">
-          <div class="blog-card-image d-inline-block p-2">
-            <img src="./images/blog/get_quality_leads.svg" alt="Grow Your Business image" />
-          </div>
-          <h6 class="blog-card-heading fw-medium m-0">Get Quality leads</h6>
-          <p class="blog-card-description m-0">
-            It is a long established fact that a reader will be distracted by.
-          </p>
-          <a target="_blank" href="#" class="fw-medium text-decoration-none m-0">Read More...</a>
-        </div>
-      </div>
-      <div class="blog-card mx-auto col-12 col-md-4 p-3 p-md-2 p-lg-3">
-        <div class="blog-card-body w-100 h-100 d-flex flex-column justify-content-evenly p-3 p-lg-4">
-          <div class="blog-card-image d-inline-block p-2">
-            <img src="./images/blog/drive_more_sales.svg" alt="Grow Your Business image" />
-          </div>
-          <h6 class="blog-card-heading fw-medium m-0">Drive more sales</h6>
-          <p class="blog-card-description m-0">
-            It is a long established fact that a reader will be distracted by.
-          </p>
-          <a target="_blank" href="#" class="fw-medium text-decoration-none m-0">Read More...</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why We -->
-  <section id="whywe" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0 gap-3">
-      <h2 class="whywe-heading m-0 col-12 fw-medium text-md-center">
-        why you should <span class="fw-medium">choose us.</span>
-      </h2>
-      <p class="whywe-description m-0 col-12 fw-normal text-md-center">
-        It is a long established fact that a reader will be distracted by the
-        readable content .It is a long established
-        <br class="d-none d-lg-block" />fact that a reader .It is a long
-        established fact that a reader will be.
-      </p>
-      <div class="whywe-card-container row m-0 p-0">
-        <div class="whywe-card col-12 col-md-4 p-3">
-          <div class="whywe-card-body row h-100 w-100 m-0">
-            <div class="whywe-card-image col-4 col-md-12 d-flex align-items-center justify-content-center">
-              <img src="./images/whywe/seo_optimisation.svg" alt="See Optimazadion" class="w-100" />
-            </div>
-            <div
-              class="whywe-card-content col-8 col-md-12 d-flex flex-column justify-content-center align-items-md-center gap-2 gap-sm-3 gap-md-2 gap-xl-3 gap-xxl-4">
-              <h6 class="m-0 text-md-center">See Optimazadion</h6>
-              <p class="m-0 text-md-center">
-                It is a long established fact that a
-                <br class="d-none d-lg-block" />
-                reader will be distracted by.It is a
-                <br class="d-none d-lg-block" />
-                long established.
-              </p>
-              <button
-                class="btn-learn-more fw-medium py-1 px-3 py-sm-2 px-sm-3 py-md-1 px-md-2 py-lg-2 px-lg-3 border-0">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="whywe-card col-12 col-md-4 p-3">
-          <div class="whywe-card-body row h-100 w-100 m-0">
-            <div class="whywe-card-image col-4 col-md-12 d-flex align-items-center justify-content-center">
-              <img src="./images/whywe/keyword_research.svg" alt="See Optimazadion" class="w-100" />
-            </div>
-            <div
-              class="whywe-card-content col-8 col-md-12 d-flex flex-column justify-content-center align-items-md-center gap-2 gap-sm-3 gap-md-2 gap-xl-3 gap-xxl-4">
-              <h6 class="m-0 text-md-center">Keyword research</h6>
-              <p class="m-0 text-md-center">
-                It is a long established fact that a
-                <br class="d-none d-lg-block" />
-                reader will be distracted by.It is a
-                <br class="d-none d-lg-block" />
-                long established.
-              </p>
-              <button
-                class="btn-learn-more fw-medium py-1 px-3 py-sm-2 px-sm-3 py-md-1 px-md-2 py-lg-2 px-lg-3 border-0">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="whywe-card col-12 col-md-4 p-3">
-          <div class="whywe-card-body row h-100 w-100 m-0">
-            <div class="whywe-card-image col-4 col-md-12 d-flex align-items-center justify-content-center">
-              <img src="./images/whywe/social_marketing.svg" alt="See Optimazadion" class="w-100" />
-            </div>
-            <div
-              class="whywe-card-content col-8 col-md-12 d-flex flex-column justify-content-center align-items-md-center gap-2 gap-sm-3 gap-md-2 gap-xl-3 gap-xxl-4">
-              <h6 class="m-0 text-md-center">Social Marketing</h6>
-              <p class="m-0 text-md-center">
-                It is a long established fact that a
-                <br class="d-none d-lg-block" />
-                reader will be distracted by.It is a
-                <br class="d-none d-lg-block" />
-                long established.
-              </p>
-              <button
-                class="btn-learn-more fw-medium py-1 px-3 py-sm-2 px-sm-3 py-md-1 px-md-2 py-lg-2 px-lg-3 border-0">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Us -->
-  <section id="about" class="container py-3 py-lg-5">
-    <div class="container row m-0 p-0">
-      <div class="about-image col-12 col-md-6 d-flex align-items-center justify-content-center">
-        <img src="./images/aboutus/aboutus_bg.svg" alt="About Us Image" class="w-100 object-fit-contain" />
-      </div>
-      <div class="about-content col-12 col-md-6 d-flex flex-column justify-content-between gap-2">
-        <h2 class="about-content-heading m-0">
-          You make ask what <br class="d-none d-md-block" />
-          SEO & why do you <span>need it?</span>
-        </h2>
-        <p class="about-content-description m-0">
-          It is a long established fact that a reader will be distracted by
-          the readable <br class="d-none d-xxl-block" />
-          content .It is a long established fact that a reader .It is a long.
-        </p>
-        <div class="about-content-card-container row m-0 w-100 flex-grow-1 gap-3 gap-sm-0 p-0">
-          <div class="about-card col-12 mx-auto p-0 py-2 px-sm-1">
-            <div class="about-card-body row m-0 w-100 h-100">
-              <div class="about-card-image col-4 col-md-3 d-flex align-items-center justify-content-center">
-                <div class="image-container w-100 d-flex align-items-center justify-content-center">
-                  <img src="./images/aboutus/social_media_marketing.svg" alt="Social Media Marketing" />
-                </div>
-              </div>
-              <div
-                class="about-card-content col-8 col-md-9 d-flex flex-column justify-content-center gap-2 justify-content-lg-evenly">
-                <h5 class="m-0">Social Media Marketing</h5>
-                <p class="m-0">
-                  It is a long established fact that a reader will be
-                  <br class="d-none d-xxl-block" />
-                  distracted by the.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="about-card col-12 mx-auto p-0 py-2 px-sm-1">
-            <div class="about-card-body row m-0 w-100 h-100">
-              <div class="about-card-image col-4 col-md-3 d-flex align-items-center justify-content-center">
-                <div class="image-container w-100 d-flex align-items-center justify-content-center">
-                  <img src="./images/aboutus/email_marketing.svg" alt="Email Marketing" />
-                </div>
-              </div>
-              <div
-                class="about-card-content col-8 col-md-9 d-flex flex-column justify-content-center gap-2 justify-content-lg-evenly">
-                <h5 class="m-0">Email marketing</h5>
-                <p class="m-0">
-                  It is a long established fact that a reader will be
-                  <br class="d-none d-xxl-block" />
-                  distracted by the.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="about-card col-12 mx-auto p-0 py-2 px-sm-1">
-            <div class="about-card-body row m-0 w-100 h-100">
-              <div class="about-card-image col-4 col-md-3 d-flex align-items-center justify-content-center">
-                <div class="image-container w-100 d-flex align-items-center justify-content-center">
-                  <img src="./images/aboutus/seo_optimization.svg" alt="SEO Optimisation" />
-                </div>
-              </div>
-              <div
-                class="about-card-content col-8 col-md-9 d-flex flex-column justify-content-center gap-2 justify-content-lg-evenly">
-                <h5 class="m-0">SEO optimization</h5>
-                <p class="m-0">
-                  It is a long established fact that a reader will be
-                  <br class="d-none d-xxl-block" />
-                  distracted by the.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="achivements-container row m-0 col-12 col-lg-11 mx-auto mt-5 py-2 py-xl-0 justify-content-md-center">
-        <div class="numbers col-6 col-md-2 p-3 p-md-0">
-          <div class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1">
-            <h2 class="m-0 fw-semibold">86</h2>
-            <p class="m-0 fw-medium">Happy Clients</p>
-          </div>
-        </div>
-        <span class="d-none col-md-1 d-md-flex align-items-center justify-content-center">
-          <span class="circle d-inline-block"></span>
-        </span>
-        <div class="numbers col-6 col-md-2 p-3 p-md-0">
-          <div class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1">
-            <h2 class="m-0 fw-semibold">118</h2>
-            <p class="m-0 fw-medium">Project Done</p>
-          </div>
-        </div>
-
-        <span class="d-none col-md-1 d-md-flex align-items-center justify-content-center">
-          <span class="circle d-inline-block"></span>
-        </span>
-        <div class="numbers col-6 col-md-2 p-3 p-md-0">
-          <div class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1">
-            <h2 class="m-0 fw-semibold">6+</h2>
-            <p class="m-0 fw-medium">Years Of Experience</p>
-          </div>
-        </div>
-
-        <span class="d-none col-md-1 d-md-flex align-items-center justify-content-center">
-          <span class="circle d-inline-block"></span>
-        </span>
-        <div class="numbers col-6 col-md-2 p-3 p-md-0">
+      <div
+        class="pricing-card-container row m-0 p-0 mt-2 mt-lg-5 justify-content-lg-between"
+      >
+        <div class="pricing-card col-12 p-3 p-lg-2 col-lg-3 mx-auto mx-lg-0">
           <div
-            class="numbers-body w-100 h-100 d-flex flex-column align-items-center justify-content-center gap-1 me-auto">
-            <h2 class="m-0 fw-semibold">14</h2>
-            <p class="m-0 fw-medium">National Awards</p>
+            class="pricing-card-body w-100 h-100 d-flex flex-column align-items-center justify-content-evenly position-relative overflow-hidden py-1 py-lg-5"
+          >
+            <img
+              src="./images/pricing/pricing_card_hover_bg.png"
+              alt="Pricing Card Hover Background"
+              class="h-100 w-100 position-absolute"
+            />
+            <h6 class="pricing-category fw-medium m-0">Plus</h6>
+            <h4 class="price m-0 fw-medium m-0">
+              <sup>$</sup>46<sub>/Month</sub>
+            </h4>
+            <span class="services">408GB Bandwidth</span>
+            <span class="services">Business & Finance Analysing</span>
+            <span class="services">24 Hour Support</span>
+            <span class="services">Customer Management</span>
+            <button class="py-1 py-sm-2 px-3 fw-medium">Get Started</button>
+          </div>
+        </div>
+        <div class="pricing-card col-12 p-3 p-lg-2 col-lg-3 mx-auto mx-lg-0">
+          <div
+            class="pricing-card-body w-100 h-100 d-flex flex-column align-items-center justify-content-evenly position-relative overflow-hidden py-1 py-lg-5"
+          >
+            <img
+              src="./images/pricing/pricing_card_hover_bg.png"
+              alt="Pricing Card Hover Background"
+              class="h-100 w-100 position-absolute"
+            />
+            <h6 class="pricing-category fw-medium m-0">Plus</h6>
+            <h4 class="price m-0 fw-medium m-0">
+              <sup>$</sup>46<sub>/Month</sub>
+            </h4>
+            <span class="services">408GB Bandwidth</span>
+            <span class="services">Business & Finance Analysing</span>
+            <span class="services">24 Hour Support</span>
+            <span class="services">Customer Management</span>
+            <button class="py-1 py-sm-2 px-3 fw-medium">Get Started</button>
+          </div>
+        </div>
+        <div class="pricing-card col-12 p-3 p-lg-2 col-lg-3 mx-auto mx-lg-0">
+          <div
+            class="pricing-card-body w-100 h-100 d-flex flex-column align-items-center justify-content-evenly position-relative overflow-hidden py-1 py-lg-5"
+          >
+            <img
+              src="./images/pricing/pricing_card_hover_bg.png"
+              alt="Pricing Card Hover Background"
+              class="h-100 w-100 position-absolute"
+            />
+            <h6 class="pricing-category fw-medium m-0">Plus</h6>
+            <h4 class="price m-0 fw-medium m-0">
+              <sup>$</sup>46<sub>/Month</sub>
+            </h4>
+            <span class="services">408GB Bandwidth</span>
+            <span class="services">Business & Finance Analysing</span>
+            <span class="services">24 Hour Support</span>
+            <span class="services">Customer Management</span>
+            <button class="py-1 py-sm-2 px-3 fw-medium">Get Started</button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Check Speed -->
-  <section id="checkspeed" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0">
-      <div class="checkspeed-content d-flex flex-column justify-content-center col-12 col-md-6 gap-3 gap-lg-4">
-        <h2 class="checkspeed-heading m-0 fw-medium">
-          Check your website <span>speed</span>
+    <!-- Members -->
+    <section id="members" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0 gap-3">
+        <h2
+          class="members-heading m-0 col-12 fw-medium text-md-center text-capitalize"
+        >
+          Our Expert Team <span class="fw-medium">Members</span>
         </h2>
-        <p class="m-0 checkspeed-description">
-          It is a long established fact that a reader will be distracted by
-          the readable content .It is a long established fact that a reader
-          .It is a long.
+        <p class="members-description m-0 col-12 fw-normal text-md-center">
+          It is a long established fact that a reader will be distracted by the
+          readable
+          <br class="d-none d-lg-block" />
+          content .It is a long established fact that a reader
         </p>
-        <form action="#" class="row m-0 gap-2 gap-lg-0">
-          <div class="input-div row m-0 p-0 col-12 col-lg-10 gap-2 gap-lg-0 pe-lg-2">
-            <input type="text" placeholder="Web URL" class="col-12 col-lg-6 p-2 p-lg-3" />
-            <input type="email" placeholder="Email Address" class="col-12 col-lg-6 p-2 p-lg-3" />
+        <div class="members-card-container row m-0 p-0">
+          <div
+            class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0"
+          >
+            <div
+              class="members-card-body background-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5"
+            >
+              <div
+                class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1"
+              >
+                <div class="members-card-image w-100">
+                  <img
+                    src="./images/members/people/john.svg"
+                    alt="Muriel Whee"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+              <div
+                class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3"
+              >
+                <h3 class="m-0 members-card-heading text-capitalize fw-medium">
+                  John Doe
+                </h3>
+                <p class="members-card-description m-0 text-capitalize">
+                  Marketing Manager
+                </p>
+                <div
+                  class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3"
+                >
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <button type="submit"
-            class="col-3 col-lg-2 mx-md-0 fw-medium py-2 px-3 border-0 d-flex align-items-center justify-content-center">
-            Submit
+          <div
+            class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0"
+          >
+            <div
+              class="members-card-body background-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5"
+            >
+              <div
+                class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1"
+              >
+                <div class="members-card-image w-100">
+                  <img
+                    src="./images/members/people/clay.svg"
+                    alt="Muriel Whee"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+              <div
+                class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3"
+              >
+                <h3 class="m-0 members-card-heading text-capitalize fw-medium">
+                  Clay Porter
+                </h3>
+                <p class="members-card-description m-0 text-capitalize">
+                  Marketing Manager
+                </p>
+                <div
+                  class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3"
+                >
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0"
+          >
+            <div
+              class="members-card-body background-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5"
+            >
+              <div
+                class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1"
+              >
+                <div class="members-card-image w-100">
+                  <img
+                    src="./images/members/people/doug.svg"
+                    alt="Muriel Whee"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+              <div
+                class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3"
+              >
+                <h3 class="m-0 members-card-heading text-capitalize fw-medium">
+                  Doug Norm
+                </h3>
+                <p class="members-card-description m-0 text-capitalize">
+                  Marketing Manager
+                </p>
+                <div
+                  class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3"
+                >
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0"
+          >
+            <div
+              class="members-card-body background-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5"
+            >
+              <div
+                class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1"
+              >
+                <div class="members-card-image w-100">
+                  <img
+                    src="./images/members/people/muriel.svg"
+                    alt="Muriel Whee"
+                    class="w-100"
+                  />
+                </div>
+              </div>
+              <div
+                class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3"
+              >
+                <h3 class="m-0 members-card-heading text-capitalize fw-medium">
+                  Muriel Whee
+                </h3>
+                <p class="members-card-description m-0 text-capitalize">
+                  Marketing Manager
+                </p>
+                <div
+                  class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3"
+                >
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
+                        fill="#828282"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="#"
+                    class="text-decoration-none h-100"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                  <a target="_blank" href="#" class="text-decoration-none h-100"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-100"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
+                        fill="#828282"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Members -->
+    <section id="clients" class="container py-3 py-lg-5">
+      <div class="row m-0 p-0 gap-4">
+        <h2
+          class="clients-heading m-0 col-12 fw-medium text-md-center text-capitalize"
+        >
+          Our Clients Say
+        </h2>
+        <p class="clients-description m-0 col-12 fw-normal text-md-center">
+          It is a long established fact that a reader will be distracted
+          <br class="d-none d-lg-block" />
+          by the readable content .It is a
+        </p>
+        <div class="carausel-container col-12 py-3">
+          <div
+            class="carausel-card p-3 me-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3"
+          >
+            <div
+              class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between"
+            >
+              <img
+                src="./images/clients/card_inverted_comma.svg"
+                alt="Inverted Comma"
+              />
+            </div>
+            <p
+              class="carausel-card-description m-0 d-flex flex-column w-100 text-center"
+            >
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that a reader
+            </p>
+            <div
+              class="card-content w-100 d-flex flex-column align-items-center gap-1"
+            >
+              <div class="image-container w-25">
+                <img src="./images/clients/clay.svg" alt="Clay" />
+              </div>
+              <span class="fw-semibold">Clay Porter</span>
+              <span>Ship builder</span>
+            </div>
+          </div>
+          <div
+            class="carausel-card p-3 me-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3"
+          >
+            <div
+              class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between"
+            >
+              <img
+                src="./images/clients/card_inverted_comma.svg"
+                alt="Inverted Comma"
+              />
+            </div>
+            <p
+              class="carausel-card-description m-0 d-flex flex-column w-100 text-center"
+            >
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that a reader
+            </p>
+            <div
+              class="card-content w-100 d-flex flex-column align-items-center gap-1"
+            >
+              <div class="image-container w-25">
+                <img src="./images/clients/clay.svg" alt="Clay" />
+              </div>
+              <span class="fw-semibold">Clay Porter</span>
+              <span>Ship builder</span>
+            </div>
+          </div>
+          <div
+            class="carausel-card p-3 me-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3"
+          >
+            <div
+              class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between"
+            >
+              <img
+                src="./images/clients/card_inverted_comma.svg"
+                alt="Inverted Comma"
+              />
+            </div>
+            <p
+              class="carausel-card-description m-0 d-flex flex-column w-100 text-center"
+            >
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that a reader
+            </p>
+            <div
+              class="card-content w-100 d-flex flex-column align-items-center gap-1"
+            >
+              <div class="image-container w-25">
+                <img src="./images/clients/clay.svg" alt="Clay" />
+              </div>
+              <span class="fw-semibold">Clay Porter</span>
+              <span>Ship builder</span>
+            </div>
+          </div>
+          <div
+            class="carausel-card p-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3"
+          >
+            <div
+              class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between"
+            >
+              <img
+                src="./images/clients/card_inverted_comma.svg"
+                alt="Inverted Comma"
+              />
+            </div>
+            <p
+              class="carausel-card-description m-0 d-flex flex-column w-100 text-center"
+            >
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a long established fact that a reader
+            </p>
+            <div
+              class="card-content w-100 d-flex flex-column align-items-center gap-1"
+            >
+              <div class="image-container w-25">
+                <img src="./images/clients/clay.svg" alt="Clay" />
+              </div>
+              <span class="fw-semibold">Clay Porter</span>
+              <span>Ship builder</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="carausel-navigation d-flex align-items-center justify-content-center gap-2 p-3 w-100"
+        >
+          <span class="p-1 rounded-5"></span><span class="p-1 rounded-5"></span
+          ><span class="p-1 rounded-5"></span
+          ><span class="p-1 rounded-5"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="container py-3 py-lg-5">
+      <div class="contact-container mx-auto">
+        <h2 class="contact-heading m-0 text-md-center">
+          Subscribe & find the perfect Cosmetics
+        </h2>
+        <p class="contact-description mt-3 text-md-center">
+          Enter your email and get updated new products & news
+        </p>
+        <form
+          action="#"
+          class="row m-0 w-100 justify-content-between gap-2 gap-md-0 mt-3 mt-lg-5"
+        >
+          <input
+            type="text"
+            placeholder="Name"
+            class="col-12 col-lg-5 m-0 p-2 p-md-1 px-md-3"
+          />
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="col-12 col-lg-5 m-0 p-2 p-md-1 px-md-3"
+          />
+          <button
+            type="submit"
+            class="col-5 col-sm-4 col-lg-1 m-0 p-2 py-md-3 fw-medium"
+            class="col-5 col-sm-4 col-lg-1 m-0 p-2 fw-medium"
+          >
+            Subscribe
           </button>
         </form>
       </div>
-      <div class="checkspeed-image col-12 col-md-6">
-        <img src="./images/checkspeed/checkspeed_bg.svg" alt="Check Internet Speed" class="w-100" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Pricing -->
-  <section id="pricing" class="container py-3 py-lg-5">
-    <h2 class="m-0 pricing-heading text-center fw-medium">Our Plans</h2>
-    <p class="m-0 pricing-description text-center mt-2">
-      Choose the right SEO for you
-    </p>
-    <div class="pricing-card-container row m-0 p-0 mt-2 mt-lg-5 justify-content-lg-between">
-      <div class="pricing-card col-12 p-3 p-lg-2 col-lg-3 mx-auto mx-lg-0">
+    <!-- Footer -->
+    <footer class="container py-5 py-lg-5 pb-0 pb-lg-0">
+      <div
+        class="logo-row w-100 m-0 d-flex align-items-center justify-content-center"
+      >
+        <a
+          class="navbar-brand fs-3 rounded-5 my-0 position-relative fw-semibold p-0"
+          href="#"
+          >nuvosa
+          <span class="d-inline-block rounded-5 position-absolute top-50"></span
+        ></a>
+      </div>
+      <div
+        class="footer-links-container d-flex flex-md-row align-items-center justify-content-between justify-content-sm-center gap-sm-4 gap-md-5 m-0 p-0 px-sm-0 my-4 mt-3 mx-auto mx-sm-0"
+      >
+        <a href="#" class="m-0 text-decoration-none fw-normal">Overview</a>
+        <a href="#pricing" class="m-0 text-decoration-none fw-normal"
+          >Pricing</a
+        >
+        <a href="#" class="m-0 text-decoration-none fw-normal">Careers</a>
+        <a href="#" class="m-0 text-decoration-none fw-normal">Help</a>
+        <a href="#" class="m-0 text-decoration-none fw-normal">Privacy</a>
+      </div>
+      <hr class="w-100" />
+      <div
+        class="copyright-container m-0 p-0 my-4 d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 gap-sm-0 px-md-4"
+      >
+        <span>Copyright © 2023 nuvosa, All rights reserved.</span>
         <div
-          class="pricing-card-body w-100 h-100 d-flex flex-column align-items-center justify-content-evenly position-relative overflow-hidden py-1 py-lg-5">
-          <img src="./images/pricing/pricing_card_hover_bg.png" alt="Pricing Card Hover Background"
-            class="h-100 w-100 position-absolute" />
-          <h6 class="pricing-category fw-medium m-0">Plus</h6>
-          <h4 class="price m-0 fw-medium m-0">
-            <sup>$</sup>46<sub>/Month</sub>
-          </h4>
-          <span class="services">408GB Bandwidth</span>
-          <span class="services">Business & Finance Analysing</span>
-          <span class="services">24 Hour Support</span>
-          <span class="services">Customer Management</span>
-          <button class="py-1 py-sm-2 px-3 fw-medium">Get Started</button>
+          class="copyright-links-container m-0 p-0 d-flex align-items-center justify-content-between gap-3"
+        >
+          <a href="#" target="_blank" class="text-decoration-none fw-normal"
+            >Terms of use</a
+          >
+          <a href="#" target="_blank" class="text-decoration-none fw-normal"
+            >copyright & trademark</a
+          >
+          <a href="#" target="_blank" class="text-decoration-none fw-normal"
+            >Policy</a
+          >
         </div>
       </div>
-      <div class="pricing-card col-12 p-3 p-lg-2 col-lg-3 mx-auto mx-lg-0">
-        <div
-          class="pricing-card-body w-100 h-100 d-flex flex-column align-items-center justify-content-evenly position-relative overflow-hidden py-1 py-lg-5">
-          <img src="./images/pricing/pricing_card_hover_bg.png" alt="Pricing Card Hover Background"
-            class="h-100 w-100 position-absolute" />
-          <h6 class="pricing-category fw-medium m-0">Plus</h6>
-          <h4 class="price m-0 fw-medium m-0">
-            <sup>$</sup>46<sub>/Month</sub>
-          </h4>
-          <span class="services">408GB Bandwidth</span>
-          <span class="services">Business & Finance Analysing</span>
-          <span class="services">24 Hour Support</span>
-          <span class="services">Customer Management</span>
-          <button class="py-1 py-sm-2 px-3 fw-medium">Get Started</button>
-        </div>
-      </div>
-      <div class="pricing-card col-12 p-3 p-lg-2 col-lg-3 mx-auto mx-lg-0">
-        <div
-          class="pricing-card-body w-100 h-100 d-flex flex-column align-items-center justify-content-evenly position-relative overflow-hidden py-1 py-lg-5">
-          <img src="./images/pricing/pricing_card_hover_bg.png" alt="Pricing Card Hover Background"
-            class="h-100 w-100 position-absolute" />
-          <h6 class="pricing-category fw-medium m-0">Plus</h6>
-          <h4 class="price m-0 fw-medium m-0">
-            <sup>$</sup>46<sub>/Month</sub>
-          </h4>
-          <span class="services">408GB Bandwidth</span>
-          <span class="services">Business & Finance Analysing</span>
-          <span class="services">24 Hour Support</span>
-          <span class="services">Customer Management</span>
-          <button class="py-1 py-sm-2 px-3 fw-medium">Get Started</button>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Members -->
-  <section id="members" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0 gap-3">
-      <h2 class="members-heading m-0 col-12 fw-medium text-md-center text-capitalize">
-        Our Expert Team <span class="fw-medium">Members</span>
-      </h2>
-      <p class="members-description m-0 col-12 fw-normal text-md-center">
-        It is a long established fact that a reader will be distracted by the
-        readable
-        <br class="d-none d-lg-block" />
-        content .It is a long established fact that a reader
-      </p>
-      <div class="members-card-container row m-0 p-0">
-        <div class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0">
-          <div
-            class="members-card-body bg-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5">
-            <div
-              class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1">
-              <div class="members-card-image w-100">
-                <img src="./images/members/people/john.svg" alt="Muriel Whee" class="w-100" />
-              </div>
-            </div>
-            <div
-              class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3">
-              <h3 class="m-0 members-card-heading text-capitalize fw-medium">
-                John Doe
-              </h3>
-              <p class="members-card-description m-0 text-capitalize">
-                Marketing Manager
-              </p>
-              <div
-                class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3">
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path
-                      d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0">
-          <div
-            class="members-card-body bg-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5">
-            <div
-              class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1">
-              <div class="members-card-image w-100">
-                <img src="./images/members/people/clay.svg" alt="Muriel Whee" class="w-100" />
-              </div>
-            </div>
-            <div
-              class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3">
-              <h3 class="m-0 members-card-heading text-capitalize fw-medium">
-                Clay Porter
-              </h3>
-              <p class="members-card-description m-0 text-capitalize">
-                Marketing Manager
-              </p>
-              <div
-                class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3">
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path
-                      d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0">
-          <div
-            class="members-card-body bg-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5">
-            <div
-              class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1">
-              <div class="members-card-image w-100">
-                <img src="./images/members/people/doug.svg" alt="Muriel Whee" class="w-100" />
-              </div>
-            </div>
-            <div
-              class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3">
-              <h3 class="m-0 members-card-heading text-capitalize fw-medium">
-                Doug Norm
-              </h3>
-              <p class="members-card-description m-0 text-capitalize">
-                Marketing Manager
-              </p>
-              <div
-                class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3">
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path
-                      d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="members-card col-12 col-sm-6 col-lg-3 p-3 p-lg-3 m-0 mx-auto mx-sm-0">
-          <div
-            class="members-card-body bg-white row m-0 p-0 w-100 h-100 px-sm-2 py-sm-3 px-md-4 py-md-4 py-lg-4 py-xxl-5">
-            <div
-              class="members-card-image-container col-4 col-sm-12 d-flex align-items-center justify-content-center p-sm-1">
-              <div class="members-card-image w-100">
-                <img src="./images/members/people/muriel.svg" alt="Muriel Whee" class="w-100" />
-              </div>
-            </div>
-            <div
-              class="members-card-content col-8 col-sm-12 d-flex flex-column align-items-sm-center justify-content-center justify-content-sm-start gap-1 py-0 px-sm-2 py-sm-3 px-md-3 py-md-4 px-lg-2 py-lg-2 py-xl-3">
-              <h3 class="m-0 members-card-heading text-capitalize fw-medium">
-                Muriel Whee
-              </h3>
-              <p class="members-card-description m-0 text-capitalize">
-                Marketing Manager
-              </p>
-              <div
-                class="icons-container w-100 d-flex m-0 justify-content-between m-0 mt-2 mt-sm-auto pe-2 p-0 px-sm-3">
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M2.25 12C2.25 6.61554 6.61554 2.25 12 2.25C14.5699 2.25 16.9004 3.25246 18.6394 4.87324C18.7883 5.01197 18.8744 5.20524 18.878 5.4087C18.8816 5.61216 18.8023 5.80834 18.6584 5.95223L16.1128 8.49788C15.8319 8.77876 15.3807 8.79193 15.084 8.52792C14.2608 7.79565 13.1837 7.35 12 7.35C9.43206 7.35 7.35 9.43206 7.35 12C7.35 14.5679 9.43206 16.65 12 16.65C13.6238 16.65 15.0521 15.8153 15.8828 14.55H12C11.5858 14.55 11.25 14.2142 11.25 13.8V10.2C11.25 9.78579 11.5858 9.45 12 9.45H20.8249C21.183 9.45 21.4911 9.70305 21.5607 10.0543C21.6832 10.6728 21.75 11.348 21.75 12C21.75 17.3845 17.3845 21.75 12 21.75C6.61554 21.75 2.25 17.3845 2.25 12ZM12 3.75C7.44396 3.75 3.75 7.44396 3.75 12C3.75 16.556 7.44396 20.25 12 20.25C16.556 20.25 20.25 16.556 20.25 12C20.25 11.6525 20.2275 11.2961 20.1853 10.95H12.75V13.05H17.0864C17.3299 13.05 17.5583 13.1683 17.6988 13.3671C17.8394 13.566 17.8746 13.8208 17.7933 14.0503C16.9491 16.4346 14.6795 18.15 12 18.15C8.60364 18.15 5.85 15.3964 5.85 12C5.85 8.60364 8.60364 5.85 12 5.85C13.3133 5.85 14.5272 6.26519 15.5236 6.96571L17.0229 5.46644C15.6306 4.39163 13.8918 3.75 12 3.75Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path
-                      d="M16 6.99998C16 6.4477 16.4477 5.99998 17 5.99998C17.5523 5.99998 18 6.4477 18 6.99998C18 7.55227 17.5523 7.99998 17 7.99998C16.4477 7.99998 16 7.55227 16 6.99998Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 7.24998C9.37665 7.24998 7.25 9.37663 7.25 12C7.25 14.6233 9.37665 16.75 12 16.75C14.6234 16.75 16.75 14.6233 16.75 12C16.75 9.37663 14.6234 7.24998 12 7.24998ZM8.75 12C8.75 10.2051 10.2051 8.74998 12 8.74998C13.7949 8.74998 15.25 10.2051 15.25 12C15.25 13.7949 13.7949 15.25 12 15.25C10.2051 15.25 8.75 13.7949 8.75 12Z"
-                      fill="#828282" />
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M17.2583 2.833C13.7917 2.44556 10.2083 2.44556 6.74177 2.833C4.72971 3.05788 3.10538 4.64289 2.86883 6.66542C2.45429 10.2097 2.45429 13.7903 2.86883 17.3346C3.10538 19.3571 4.72971 20.9421 6.74177 21.167C10.2083 21.5544 13.7917 21.5544 17.2583 21.167C19.2703 20.9421 20.8946 19.3571 21.1312 17.3346C21.5457 13.7903 21.5457 10.2097 21.1312 6.66542C20.8946 4.64289 19.2703 3.05788 17.2583 2.833ZM6.90838 4.32372C10.2642 3.94865 13.7358 3.94865 17.0916 4.32372C18.4218 4.47238 19.4872 5.52199 19.6414 6.83967C20.0424 10.2682 20.0424 13.7318 19.6414 17.1603C19.4872 18.478 18.4218 19.5276 17.0916 19.6762C13.7358 20.0513 10.2642 20.0513 6.90838 19.6762C5.57827 19.5276 4.51278 18.478 4.35867 17.1603C3.95767 13.7318 3.95767 10.2682 4.35867 6.83967C4.51278 5.52199 5.57827 4.47238 6.90838 4.32372Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M15.0215 3.34346C15.5298 3.25638 16.0991 3.2273 16.6349 3.31795C17.5918 3.47983 18.4756 3.92456 19.1743 4.59132C19.631 4.60165 20.0798 4.51167 20.4769 4.38341C20.813 4.27486 21.097 4.14379 21.2959 4.04015C21.3948 3.98862 21.4712 3.94466 21.5209 3.9149C21.5457 3.90005 21.5638 3.8888 21.5745 3.88201L21.584 3.87595C21.8808 3.67822 22.276 3.7167 22.5289 3.96821C22.7818 4.21977 22.8226 4.61469 22.6263 4.9126C22.4186 5.22789 22.1302 5.78996 21.8072 6.41972C21.7564 6.51874 21.7047 6.61943 21.6524 6.7211C21.4671 7.08107 21.2771 7.44488 21.1 7.75701C20.9888 7.953 20.8699 8.15197 20.75 8.32392V8.59769C20.7576 9.60332 20.6423 10.6037 20.4082 11.5769C20.2609 12.1893 20.0666 12.7909 19.8264 13.3762C19.204 14.8929 18.2856 16.2703 17.1249 17.4281C15.9641 18.5858 14.5843 19.5007 13.0661 20.1192C11.5492 20.7372 9.92443 21.047 8.28658 21.0306C5.91227 21.0326 3.5879 20.3486 1.59318 19.0607C1.29938 18.871 1.17568 18.5034 1.29502 18.1747C1.41435 17.8459 1.74505 17.6433 2.09212 17.6863C2.39248 17.7234 2.69489 17.7416 2.99754 17.7406C4.08499 17.7375 5.15173 17.4973 6.12559 17.0446C5.81604 16.9037 5.52051 16.73 5.24435 16.5252C4.43264 15.9233 3.82873 15.0833 3.51666 14.1222C3.43556 13.8724 3.491 13.5985 3.66282 13.3999C3.66589 13.3963 3.669 13.3928 3.67214 13.3893C3.48861 13.2257 3.31688 13.0475 3.15878 12.8558C2.44747 11.9936 2.05579 10.9122 2.05001 9.79447L2.04999 9.79059L2.05 9.74059C2.05 9.47472 2.19075 9.22873 2.41995 9.09401C2.47806 9.05986 2.53964 9.03415 2.60299 9.01691C2.26466 8.34183 2.08871 7.59638 2.09 6.84012C2.0896 5.98336 2.3134 5.14139 2.73916 4.39789C2.86207 4.18325 3.0829 4.04301 3.32943 4.02304C3.57595 4.00306 3.81648 4.10591 3.97234 4.29796C4.9349 5.48397 6.13619 6.45423 7.49817 7.1457C8.19831 7.50115 8.93286 7.77885 9.68866 7.97528C10.1124 8.08541 10.5428 8.17 10.9776 8.22843C10.9584 7.50517 11.1012 6.7823 11.401 6.11437C11.8407 5.13454 12.5931 4.32837 13.5404 3.82227C13.9415 3.60794 14.474 3.43723 15.0215 3.34346ZM3.74327 10.891C3.87292 11.2558 4.06579 11.5982 4.31584 11.9013C4.80717 12.4968 5.48911 12.9044 6.24633 13.055C6.58362 13.1221 6.83205 13.41 6.84908 13.7535C6.8661 14.0969 6.64735 14.408 6.31836 14.5081C6.04586 14.591 5.76668 14.6488 5.48433 14.6809C5.67091 14.9214 5.89039 15.1368 6.1378 15.3203C6.69898 15.7364 7.37593 15.9673 8.07444 15.9807C8.39135 15.9868 8.67022 16.1915 8.77105 16.492C8.87187 16.7925 8.77289 17.124 8.52378 17.32C7.47461 18.1455 6.26141 18.7212 4.97586 19.0151C6.04135 19.3563 7.15879 19.532 8.28908 19.5306L8.29779 19.5306C9.73785 19.5455 11.1664 19.2734 12.5001 18.7301C13.8339 18.1867 15.0459 17.3831 16.0656 16.3661C17.0852 15.3491 17.8919 14.1391 18.4387 12.8067C18.6497 12.2925 18.8204 11.7641 18.9498 11.2261C19.1556 10.3704 19.2569 9.49072 19.25 8.60645L19.25 8.60059V8.07059C19.25 7.88873 19.3161 7.71307 19.4359 7.5763C19.5052 7.49726 19.6264 7.3147 19.7954 7.0168C19.956 6.73368 20.1338 6.39377 20.3187 6.03459C20.3299 6.01286 20.3411 5.99103 20.3524 5.96909C19.8728 6.07324 19.3292 6.12783 18.7594 6.06624C18.579 6.04674 18.4117 5.96245 18.2886 5.82901C17.7858 5.28368 17.1161 4.92067 16.3847 4.79693C16.0602 4.74202 15.6678 4.75459 15.2747 4.82193C14.8476 4.89509 14.4759 5.0231 14.2472 5.14528C13.5929 5.49485 13.0732 6.05169 12.7695 6.72848C12.4658 7.40526 12.3953 8.16371 12.5691 8.88487C12.6245 9.11478 12.5683 9.35736 12.4173 9.53939C12.2663 9.72142 12.0383 9.82158 11.8021 9.80963C10.9587 9.76697 10.1242 9.63832 9.31134 9.42705C8.45144 9.20356 7.61571 8.88761 6.81913 8.4832C5.64635 7.88779 4.5783 7.11069 3.65346 6.183C3.61127 6.39861 3.58985 6.61864 3.59 6.84009L3.59 6.84201C3.58895 7.39273 3.7241 7.93516 3.98341 8.42101C4.24272 8.90686 4.61814 9.32105 5.07626 9.6267C5.35428 9.8122 5.47601 10.1593 5.37475 10.4778C5.2735 10.7963 4.9737 11.0094 4.6396 11.0003C4.33701 10.9921 4.03694 10.9553 3.74327 10.891Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-                <a target="_blank" href="#" class="text-decoration-none h-100"><svg width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-100">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M10.4877 3.78769C11.4723 2.80312 12.8076 2.25 14.2 2.25H16.9C17.3142 2.25 17.65 2.58579 17.65 3V6.6C17.65 7.01421 17.3142 7.35 16.9 7.35H14.2C14.1602 7.35 14.1221 7.3658 14.0939 7.39393C14.0658 7.42206 14.05 7.46022 14.05 7.5V9.45H16.9C17.131 9.45 17.349 9.5564 17.4912 9.73844C17.6333 9.92048 17.6836 10.1578 17.6276 10.3819L16.7276 13.9819C16.6441 14.3158 16.3442 14.55 16 14.55H14.05V21C14.05 21.4142 13.7142 21.75 13.3 21.75H9.7C9.28579 21.75 8.95 21.4142 8.95 21V14.55H7C6.58579 14.55 6.25 14.2142 6.25 13.8V10.2C6.25 9.78579 6.58579 9.45 7 9.45H8.95V7.5C8.95 6.10761 9.50312 4.77226 10.4877 3.78769ZM14.2 3.75C13.2054 3.75 12.2516 4.14509 11.5483 4.84835C10.8451 5.55161 10.45 6.50544 10.45 7.5V10.2C10.45 10.6142 10.1142 10.95 9.7 10.95H7.75V13.05H9.7C10.1142 13.05 10.45 13.3858 10.45 13.8V20.25H12.55V13.8C12.55 13.3858 12.8858 13.05 13.3 13.05H15.4144L15.9394 10.95H13.3C12.8858 10.95 12.55 10.6142 12.55 10.2V7.5C12.55 7.06239 12.7238 6.64271 13.0333 6.33327C13.3427 6.02384 13.7624 5.85 14.2 5.85H16.15V3.75H14.2Z"
-                      fill="#828282" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Members -->
-  <section id="clients" class="container py-3 py-lg-5">
-    <div class="row m-0 p-0 gap-4">
-      <h2 class="clients-heading m-0 col-12 fw-medium text-md-center text-capitalize">
-        Our Clients Say
-      </h2>
-      <p class="clients-description m-0 col-12 fw-normal text-md-center">
-        It is a long established fact that a reader will be distracted
-        <br class="d-none d-lg-block" />
-        by the readable content .It is a
-      </p>
-      <div class="carausel-container col-12 py-3">
-        <div
-          class="carausel-card p-3 me-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3">
-          <div class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between">
-            <img src="./images/clients/card_inverted_comma.svg" alt="Inverted Comma" />
-          </div>
-          <p class="carausel-card-description m-0 d-flex flex-column w-100 text-center">
-            It is a long established fact that a reader will be distracted by
-            the readable content .It is a long established fact that a reader
-          </p>
-          <div class="card-content w-100 d-flex flex-column align-items-center gap-1">
-            <div class="image-container w-25">
-              <img src="./images/clients/clay.svg" alt="Clay" />
-            </div>
-            <span class="fw-semibold">Clay Porter</span>
-            <span>Ship builder</span>
-          </div>
-        </div>
-        <div
-          class="carausel-card p-3 me-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3">
-          <div class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between">
-            <img src="./images/clients/card_inverted_comma.svg" alt="Inverted Comma" />
-          </div>
-          <p class="carausel-card-description m-0 d-flex flex-column w-100 text-center">
-            It is a long established fact that a reader will be distracted by
-            the readable content .It is a long established fact that a reader
-          </p>
-          <div class="card-content w-100 d-flex flex-column align-items-center gap-1">
-            <div class="image-container w-25">
-              <img src="./images/clients/clay.svg" alt="Clay" />
-            </div>
-            <span class="fw-semibold">Clay Porter</span>
-            <span>Ship builder</span>
-          </div>
-        </div>
-        <div
-          class="carausel-card p-3 me-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3">
-          <div class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between">
-            <img src="./images/clients/card_inverted_comma.svg" alt="Inverted Comma" />
-          </div>
-          <p class="carausel-card-description m-0 d-flex flex-column w-100 text-center">
-            It is a long established fact that a reader will be distracted by
-            the readable content .It is a long established fact that a reader
-          </p>
-          <div class="card-content w-100 d-flex flex-column align-items-center gap-1">
-            <div class="image-container w-25">
-              <img src="./images/clients/clay.svg" alt="Clay" />
-            </div>
-            <span class="fw-semibold">Clay Porter</span>
-            <span>Ship builder</span>
-          </div>
-        </div>
-        <div
-          class="carausel-card p-3 position-relative d-inline-flex flex-column align-items-center justify-content-center gap-3">
-          <div class="icon-container position-absolute d-flex flex-column align-items-center justify-content-between">
-            <img src="./images/clients/card_inverted_comma.svg" alt="Inverted Comma" />
-          </div>
-          <p class="carausel-card-description m-0 d-flex flex-column w-100 text-center">
-            It is a long established fact that a reader will be distracted by
-            the readable content .It is a long established fact that a reader
-          </p>
-          <div class="card-content w-100 d-flex flex-column align-items-center gap-1">
-            <div class="image-container w-25">
-              <img src="./images/clients/clay.svg" alt="Clay" />
-            </div>
-            <span class="fw-semibold">Clay Porter</span>
-            <span>Ship builder</span>
-          </div>
-        </div>
-      </div>
-      <div class="carausel-navigation d-flex align-items-center justify-content-center gap-2 p-3 w-100">
-        <span class="p-1 rounded-5"></span><span class="p-1 rounded-5"></span><span class="p-1 rounded-5"></span><span
-          class="p-1 rounded-5"></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Us -->
-  <section id="contact" class="container py-3 py-lg-5">
-    <div class="contact-container mx-auto">
-      <h2 class="contact-heading m-0 text-md-center">
-        Subscribe & find the perfect Cosmetics
-      </h2>
-      <p class="contact-description mt-3 text-md-center">
-        Enter your email and get updated new products & news
-      </p>
-      <form action="#" class="row m-0 w-100 justify-content-between gap-2 gap-md-0 mt-3 mt-lg-5">
-        <input type="text" placeholder="Name" class="col-12 col-lg-5 m-0 p-2 p-md-1 px-md-3" />
-        <input type="email" placeholder="Email Address" class="col-12 col-lg-5 m-0 p-2 p-md-1 px-md-3" />
-        <button type="submit" class="col-5 col-sm-4 col-lg-1 m-0 p-2 py-md-3 fw-medium"
-          class="col-5 col-sm-4 col-lg-1 m-0 p-2 fw-medium">
-          Subscribe
-        </button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="container py-5 py-lg-5 pb-0 pb-lg-0">
-    <div class="logo-row w-100 m-0 d-flex align-items-center justify-content-center">
-      <a class="navbar-brand fs-3 rounded-5 my-0 position-relative fw-semibold p-0" href="#">nuvosa
-        <span class="d-inline-block rounded-5 position-absolute top-50"></span></a>
-    </div>
-    <div
-      class="footer-links-container d-flex flex-md-row align-items-center justify-content-between justify-content-sm-center gap-sm-4 gap-md-5 m-0 p-0 px-sm-0 my-4 mt-3 mx-auto mx-sm-0">
-      <a href="#" class="m-0 text-decoration-none fw-normal">Overview</a>
-      <a href="#pricing" class="m-0 text-decoration-none fw-normal">Pricing</a>
-      <a href="#" class="m-0 text-decoration-none fw-normal">Careers</a>
-      <a href="#" class="m-0 text-decoration-none fw-normal">Help</a>
-      <a href="#" class="m-0 text-decoration-none fw-normal">Privacy</a>
-    </div>
-    <hr class="w-100" />
-    <div
-      class="copyright-container m-0 p-0 my-4 d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 gap-sm-0 px-md-4">
-      <span>Copyright © 2023 nuvosa, All rights reserved.</span>
-      <div class="copyright-links-container m-0 p-0 d-flex align-items-center justify-content-between gap-3">
-        <a href="#" target="_blank" class="text-decoration-none fw-normal">Terms of use</a>
-        <a href="#" target="_blank" class="text-decoration-none fw-normal">copyright & trademark</a>
-        <a href="#" target="_blank" class="text-decoration-none fw-normal">Policy</a>
-      </div>
-    </div>
-  </footer>
-
-  <script type="module" src="./main.mjs"></script>
-</body>
-
+    <script type="module" src="./main.mjs"></script>
+  </body>
 </html>
